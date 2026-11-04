@@ -1,0 +1,8 @@
+feature,records,avg_tokens,median_tokens,max_tokens,min_tokens,avg_words
+application_process,4428,347.5,276.0,2757,1,193.18
+benefits,4423,137.74,81.0,7311,3,87.83
+brief_description,4428,47.8,49.0,87,12,35.58
+details,4424,145.16,111.0,1670,18,107.29
+documents_required,4428,110.9,69.5,1858,1,65.23
+eligibility,4424,138.37,103.0,1846,7,102.55
+exclusions,750,78.28,45.0,917,1,57.25
