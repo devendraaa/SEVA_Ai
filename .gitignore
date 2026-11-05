@@ -7,6 +7,8 @@ output/
 
 # ChromaDB and vector indexes
 notebooks/data/vectorstores/
+notebooks/data/processed/
+data/raw
 **/chroma_db/
 **/chroma/
 **/chroma.sqlite3
