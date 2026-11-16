@@ -1,0 +1,17 @@
+{
+    "query_id": "Unique query identifier",
+    "citizen_query": "Citizen's actual problem without scheme names",
+    "category": "Government scheme category",
+    "answerable": "Boolean",
+    "relevant_scheme_ids": [
+        "Verified relevant scheme IDs"
+    ],
+    "relevance_judgments": [
+        {
+            "scheme_id": "Government scheme ID",
+            "relevance_grade": 2,
+            "rationale": "Why this scheme is relevant",
+            "source_url": "Official verification URL"
+        }
+    ]
+}
