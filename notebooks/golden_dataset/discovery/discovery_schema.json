@@ -1,17 +1,26 @@
 {
-    "query_id": "Unique query identifier",
-    "citizen_query": "Citizen's actual problem without scheme names",
-    "category": "Government scheme category",
-    "answerable": "Boolean",
-    "relevant_scheme_ids": [
-        "Verified relevant scheme IDs"
-    ],
-    "relevance_judgments": [
-        {
-            "scheme_id": "Government scheme ID",
-            "relevance_grade": 2,
-            "rationale": "Why this scheme is relevant",
-            "source_url": "Official verification URL"
-        }
-    ]
+  "query_id": "Unique citizen query ID",
+  "user_profile": {
+    "state": "Indian state or union territory",
+    "caste_category": "Optional caste category",
+    "community_category": "Optional community category",
+    "beneficiary_group": "Optional beneficiary group",
+    "age": "Optional age",
+    "annual_family_income": "Optional annual family income",
+    "scheme_category": "Optional primary scheme category"
+  },
+  "citizen_query": "Natural-language description of citizen's problem",
+  "relevant_scheme_ids": [
+    "All verified relevant scheme IDs"
+  ],
+  "relevance_judgments": [
+    {
+      "scheme_id": "Government scheme ID",
+      "relevance_grade": "0, 1, or 2",
+      "rationale": "Why this scheme is relevant",
+      "evidence_fields": [
+        "Original scheme fields supporting relevance"
+      ]
+    }
+  ]
 }
