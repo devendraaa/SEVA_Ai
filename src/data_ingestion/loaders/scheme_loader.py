@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from core.logging import logger
 
-DATA_PATH = Path(r"G:\SEVA_Ai\SEVA_Ai\notebooks\data_analysis\all_schemes.json")
+DATA_PATH = Path(r"G:\SEVA_Ai\SEVA_Ai\notebooks\data\analysis\all_schemes.json")
 
 def load_schemes(file_path: Path = DATA_PATH) -> list[dict]:
 

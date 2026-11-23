@@ -1,0 +1,66 @@
+2026-11-23 10:05:47,255 | INFO | seva_ai | Starting scheme data ingestion
+2026-11-23 10:05:47,255 | INFO | seva_ai | Loading dataset: G:\SEVA_Ai\SEVA_Ai\notebooks\data_analysis\all_schemes.json
+2026-11-23 10:05:47,255 | ERROR | seva_ai | Scheme data ingestion failed
+Traceback (most recent call last):
+  File "G:\SEVA_Ai\SEVA_Ai\src\data_ingestion\loaders\scheme_loader.py", line 14, in load_schemes
+    with file_path.open("r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\devendra\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\SEVA_Ai\\SEVA_Ai\\notebooks\\data_analysis\\all_schemes.json'
+2026-11-23 10:06:27,170 | INFO | seva_ai | Starting scheme data ingestion
+2026-11-23 10:06:27,171 | INFO | seva_ai | Loading dataset: G:\SEVA_Ai\SEVA_Ai\notebooks\data\all_schemes.json
+2026-11-23 10:06:27,173 | ERROR | seva_ai | Scheme data ingestion failed
+Traceback (most recent call last):
+  File "G:\SEVA_Ai\SEVA_Ai\src\data_ingestion\loaders\scheme_loader.py", line 14, in load_schemes
+    with file_path.open("r", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\devendra\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\SEVA_Ai\\SEVA_Ai\\notebooks\\data\\all_schemes.json'
+2026-11-23 10:06:43,259 | INFO | seva_ai | Starting scheme data ingestion
+2026-11-23 10:06:43,259 | INFO | seva_ai | Loading dataset: G:\SEVA_Ai\SEVA_Ai\notebooks\data\analysis\all_schemes.json
+2026-11-23 10:06:46,735 | INFO | seva_ai | Successfully loaded 4428 schemes
+2026-11-23 13:25:27,162 | INFO | seva_ai | SEVA_AI application starting
+2026-11-23 14:13:26,433 | INFO | seva_ai | SEVA_AI application shutting down
+2026-11-23 14:13:38,433 | INFO | seva_ai | SEVA_AI application starting
+2026-11-23 14:19:40,489 | INFO | seva_ai | SEVA_AI application shutting down
+2026-11-23 14:19:45,962 | INFO | seva_ai | SEVA_AI application starting
+2026-11-23 14:22:49,800 | INFO | seva_ai | SEVA_AI application shutting down
+2026-11-23 14:22:54,551 | INFO | seva_ai | SEVA_AI application starting
+2026-11-23 14:26:57,683 | INFO | seva_ai | SEVA_AI application shutting down
+2026-11-23 14:27:03,951 | INFO | seva_ai | SEVA_AI application starting
+2026-11-23 14:27:34,425 | INFO | seva_ai | SEVA_AI application shutting down
+2026-11-23 14:27:37,596 | INFO | seva_ai | SEVA_AI application starting
+2026-11-23 14:32:31,801 | INFO | seva_ai | SEVA_AI application shutting down
+2026-11-23 14:32:41,781 | INFO | seva_ai | SEVA_AI application starting
+2026-11-23 14:32:53,694 | INFO | seva_ai | SEVA_AI application shutting down
+2026-11-23 14:33:01,276 | INFO | seva_ai | SEVA_AI application starting
+2026-11-23 14:33:39,442 | INFO | seva_ai | SEVA_AI application shutting down
+2026-11-23 14:33:48,943 | INFO | seva_ai | SEVA_AI application starting
+2026-11-23 14:34:36,407 | INFO | seva_ai | SEVA_AI application shutting down
+2026-11-23 14:34:40,912 | INFO | seva_ai | SEVA_AI application starting
+2026-11-23 14:35:46,680 | INFO | seva_ai | SEVA_AI application shutting down
+2026-11-23 14:35:58,515 | INFO | seva_ai | SEVA_AI application starting
+2026-11-23 14:36:59,005 | INFO | seva_ai | SEVA_AI application shutting down
+2026-11-23 14:37:03,428 | INFO | seva_ai | SEVA_AI application starting
+2026-11-23 14:39:01,904 | INFO | seva_ai | SEVA_AI application shutting down
+2026-11-23 14:39:07,007 | INFO | seva_ai | SEVA_AI application starting
+2026-11-23 14:43:30,744 | INFO | seva_ai | SEVA_AI application shutting down
+2026-11-23 14:43:41,341 | INFO | seva_ai | SEVA_AI application starting
+2026-11-23 14:56:17,801 | INFO | seva_ai | SEVA_AI application shutting down
+2026-11-23 14:56:35,921 | INFO | seva_ai | SEVA_AI application starting
+2026-11-23 14:57:51,643 | INFO | seva_ai | SEVA_AI application starting
+2026-11-23 14:59:08,812 | INFO | seva_ai | Chroma vector stores initialized successfully
+2026-11-23 15:17:47,047 | INFO | seva_ai | SEVA_AI application shutting down
+2026-11-23 15:18:18,884 | INFO | seva_ai | SEVA_AI application starting
+2026-11-23 15:19:51,199 | INFO | seva_ai | Chroma vector stores initialized successfully
+2026-11-23 15:21:28,602 | INFO | seva_ai | SEVA_AI application shutting down
+2026-11-23 15:21:46,645 | INFO | seva_ai | SEVA_AI application starting
+2026-11-23 15:22:37,801 | INFO | seva_ai | Chroma vector stores initialized successfully
+2026-11-23 15:50:38,258 | INFO | seva_ai | SEVA_AI application shutting down
+2026-11-23 15:51:07,941 | INFO | seva_ai | SEVA_AI application starting
+2026-11-23 15:52:20,114 | INFO | seva_ai | Chroma vector stores initialized successfully
+2026-11-23 15:56:39,106 | INFO | seva_ai | SEVA_AI application shutting down
