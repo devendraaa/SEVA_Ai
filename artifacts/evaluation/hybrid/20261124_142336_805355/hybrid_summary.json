@@ -1,0 +1,115 @@
+{
+    "run_id": "20261124_142336_805355",
+    "retrieval_method": "Dense + BM25 + RRF + Cohere",
+    "total_questions": 20,
+    "successful_queries": 10,
+    "failed_queries": 10,
+    "bm25_build_latency": 15.212198699999135,
+    "total_evaluation_latency": 58.61233620002167,
+    "average_latency": {
+        "dense": 0.12377641000202858,
+        "bm25": 0.35221352000371553,
+        "fusion": 0.0006971899885684252,
+        "scheme_profiles": 0.1209367299976293,
+        "cohere": 0.5726765699975658,
+        "total": 1.174850579991471
+    },
+    "metrics": {
+        "mrr": 0.65,
+        "map": 0.65,
+        "recall@1": 0.6,
+        "ndcg@1": 0.6,
+        "recall@3": 0.7,
+        "ndcg@3": 0.6630929753571457,
+        "recall@5": 0.7,
+        "ndcg@5": 0.6630929753571457,
+        "recall@10": 0.7,
+        "ndcg@10": 0.6630929753571457,
+        "dense_mrr": 0.18214285714285713,
+        "dense_map": 0.18214285714285713,
+        "dense_candidate_recall": 0.4,
+        "dense_recall@1": 0.1,
+        "dense_ndcg@1": 0.1,
+        "dense_recall@3": 0.2,
+        "dense_ndcg@3": 0.16309297535714576,
+        "dense_recall@5": 0.3,
+        "dense_ndcg@5": 0.20616063116448508,
+        "dense_recall@10": 0.3,
+        "dense_ndcg@10": 0.20616063116448508,
+        "bm25_mrr": 0.45999999999999996,
+        "bm25_map": 0.45999999999999996,
+        "bm25_candidate_recall": 0.6,
+        "bm25_recall@1": 0.4,
+        "bm25_ndcg@1": 0.4,
+        "bm25_recall@3": 0.5,
+        "bm25_ndcg@3": 0.4630929753571458,
+        "bm25_recall@5": 0.5,
+        "bm25_ndcg@5": 0.4630929753571458,
+        "bm25_recall@10": 0.6,
+        "bm25_ndcg@10": 0.4919994579889345,
+        "rrf_mrr": 0.33571428571428574,
+        "rrf_map": 0.33571428571428574,
+        "rrf_candidate_recall": 0.7,
+        "rrf_recall@1": 0.2,
+        "rrf_ndcg@1": 0.2,
+        "rrf_recall@3": 0.5,
+        "rrf_ndcg@3": 0.3630929753571458,
+        "rrf_recall@5": 0.5,
+        "rrf_ndcg@5": 0.3630929753571458,
+        "rrf_recall@10": 0.6,
+        "rrf_ndcg@10": 0.39642630869047907,
+        "cohere_mrr": 0.65,
+        "cohere_map": 0.65,
+        "cohere_candidate_recall": 0.7,
+        "cohere_recall@1": 0.6,
+        "cohere_ndcg@1": 0.6,
+        "cohere_recall@3": 0.7,
+        "cohere_ndcg@3": 0.6630929753571457,
+        "cohere_recall@5": 0.7,
+        "cohere_ndcg@5": 0.6630929753571457,
+        "cohere_recall@10": 0.7,
+        "cohere_ndcg@10": 0.6630929753571457
+    },
+    "failures": [
+        {
+            "test_id": "vsazF5gB0AGc0F0iizMt_1",
+            "error": "headers: {'access-control-expose-headers': 'X-Debug-Trace-ID', 'cache-control': 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0', 'content-encoding': 'gzip', 'content-type': 'application/json', 'expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'pragma': 'no-cache', 'vary': 'Origin,Accept-Encoding', 'x-accel-expires': '0', 'x-debug-trace-id': '2c4770f1390d8def7d609a3aa612d3a6', 'date': 'Tue, 24 Nov 2026 08:55:03 GMT', 'x-envoy-upstream-service-time': '2', 'server': 'envoy', 'via': '1.1 google', 'alt-svc': 'h3=\":443\"; ma=2592000', 'transfer-encoding': 'chunked'}, status_code: 429, body: {'id': 'acb5d2ac-7abf-438f-b58a-5977c56128fb', 'message': \"You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions\"}"
+        },
+        {
+            "test_id": "vsazF5gB0AGc0F0iizMt_2",
+            "error": "headers: {'access-control-expose-headers': 'X-Debug-Trace-ID', 'cache-control': 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0', 'content-encoding': 'gzip', 'content-type': 'application/json', 'expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'pragma': 'no-cache', 'vary': 'Origin,Accept-Encoding', 'x-accel-expires': '0', 'x-debug-trace-id': 'c1b84e1817a16d904ca18b21dac888ea', 'date': 'Tue, 24 Nov 2026 08:55:08 GMT', 'x-envoy-upstream-service-time': '3', 'server': 'envoy', 'via': '1.1 google', 'alt-svc': 'h3=\":443\"; ma=2592000', 'transfer-encoding': 'chunked'}, status_code: 429, body: {'id': '3c84115b-6b5b-4c35-8daf-c3d7646fdb0b', 'message': \"You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions\"}"
+        },
+        {
+            "test_id": "vsazF5gB0AGc0F0iizMt_3",
+            "error": "headers: {'access-control-expose-headers': 'X-Debug-Trace-ID', 'cache-control': 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0', 'content-encoding': 'gzip', 'content-type': 'application/json', 'expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'pragma': 'no-cache', 'vary': 'Origin,Accept-Encoding', 'x-accel-expires': '0', 'x-debug-trace-id': '545b5c05c029eda94201c3bf93d1fbfa', 'date': 'Tue, 24 Nov 2026 08:55:13 GMT', 'x-envoy-upstream-service-time': '6', 'server': 'envoy', 'via': '1.1 google', 'alt-svc': 'h3=\":443\"; ma=2592000', 'transfer-encoding': 'chunked'}, status_code: 429, body: {'id': 'a84972cb-2172-4c53-9a29-a7020a97a6f0', 'message': \"You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions\"}"
+        },
+        {
+            "test_id": "vsazF5gB0AGc0F0iizMt_4",
+            "error": "headers: {'access-control-expose-headers': 'X-Debug-Trace-ID', 'cache-control': 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0', 'content-encoding': 'gzip', 'content-type': 'application/json', 'expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'pragma': 'no-cache', 'vary': 'Origin,Accept-Encoding', 'x-accel-expires': '0', 'x-debug-trace-id': 'dccee1525f080d9873fc130243226d21', 'date': 'Tue, 24 Nov 2026 08:55:18 GMT', 'x-envoy-upstream-service-time': '4', 'server': 'envoy', 'via': '1.1 google', 'alt-svc': 'h3=\":443\"; ma=2592000', 'transfer-encoding': 'chunked'}, status_code: 429, body: {'id': 'f2fc7983-b58b-4bba-8a0f-2aa5016d7671', 'message': \"You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions\"}"
+        },
+        {
+            "test_id": "vsazF5gB0AGc0F0iizMt_5",
+            "error": "headers: {'access-control-expose-headers': 'X-Debug-Trace-ID', 'cache-control': 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0', 'content-encoding': 'gzip', 'content-type': 'application/json', 'expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'pragma': 'no-cache', 'vary': 'Origin,Accept-Encoding', 'x-accel-expires': '0', 'x-debug-trace-id': '8139ceef943e06ca259746573d4c75a5', 'date': 'Tue, 24 Nov 2026 08:55:22 GMT', 'x-envoy-upstream-service-time': '3', 'server': 'envoy', 'via': '1.1 google', 'alt-svc': 'h3=\":443\"; ma=2592000', 'transfer-encoding': 'chunked'}, status_code: 429, body: {'id': '84c8b7e3-9804-4241-90d3-4fafbfb00b1f', 'message': \"You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions\"}"
+        },
+        {
+            "test_id": "wMb9F5gB0AGc0F0iXjeZ_1",
+            "error": "headers: {'access-control-expose-headers': 'X-Debug-Trace-ID', 'cache-control': 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0', 'content-encoding': 'gzip', 'content-type': 'application/json', 'expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'pragma': 'no-cache', 'vary': 'Origin,Accept-Encoding', 'x-accel-expires': '0', 'x-debug-trace-id': '213004d5281eeec80ac1b7532dac272b', 'date': 'Tue, 24 Nov 2026 08:55:27 GMT', 'x-envoy-upstream-service-time': '2', 'server': 'envoy', 'via': '1.1 google', 'alt-svc': 'h3=\":443\"; ma=2592000', 'transfer-encoding': 'chunked'}, status_code: 429, body: {'id': 'b9ed83b4-fbf4-4abf-bf3c-140ec9fbe9eb', 'message': \"You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions\"}"
+        },
+        {
+            "test_id": "wMb9F5gB0AGc0F0iXjeZ_2",
+            "error": "headers: {'access-control-expose-headers': 'X-Debug-Trace-ID', 'cache-control': 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0', 'content-encoding': 'gzip', 'content-type': 'application/json', 'expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'pragma': 'no-cache', 'vary': 'Origin,Accept-Encoding', 'x-accel-expires': '0', 'x-debug-trace-id': 'e5b8e8a65c64283cbea140cb9881df81', 'date': 'Tue, 24 Nov 2026 08:55:32 GMT', 'x-envoy-upstream-service-time': '2', 'server': 'envoy', 'via': '1.1 google', 'alt-svc': 'h3=\":443\"; ma=2592000', 'transfer-encoding': 'chunked'}, status_code: 429, body: {'id': '105f4988-7ecb-4eed-a7de-a40ee5281d95', 'message': \"You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions\"}"
+        },
+        {
+            "test_id": "wMb9F5gB0AGc0F0iXjeZ_3",
+            "error": "headers: {'access-control-expose-headers': 'X-Debug-Trace-ID', 'cache-control': 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0', 'content-encoding': 'gzip', 'content-type': 'application/json', 'expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'pragma': 'no-cache', 'vary': 'Origin,Accept-Encoding', 'x-accel-expires': '0', 'x-debug-trace-id': 'd7366aabadd09fa34bceafe13936eae8', 'date': 'Tue, 24 Nov 2026 08:55:36 GMT', 'x-envoy-upstream-service-time': '3', 'server': 'envoy', 'via': '1.1 google', 'alt-svc': 'h3=\":443\"; ma=2592000', 'transfer-encoding': 'chunked'}, status_code: 429, body: {'id': '76f7265f-470b-4e5a-b61a-71e9b7488598', 'message': \"You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions\"}"
+        },
+        {
+            "test_id": "wMb9F5gB0AGc0F0iXjeZ_4",
+            "error": "headers: {'access-control-expose-headers': 'X-Debug-Trace-ID', 'cache-control': 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0', 'content-encoding': 'gzip', 'content-type': 'application/json', 'expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'pragma': 'no-cache', 'vary': 'Origin,Accept-Encoding', 'x-accel-expires': '0', 'x-debug-trace-id': '8200ba8e03825e03d51b9c7e80fde6d7', 'date': 'Tue, 24 Nov 2026 08:55:40 GMT', 'x-envoy-upstream-service-time': '3', 'server': 'envoy', 'via': '1.1 google', 'alt-svc': 'h3=\":443\"; ma=2592000', 'transfer-encoding': 'chunked'}, status_code: 429, body: {'id': 'c4c4d76f-fe45-413d-81f6-4c494bd693a9', 'message': \"You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions\"}"
+        },
+        {
+            "test_id": "wMb9F5gB0AGc0F0iXjeZ_5",
+            "error": "headers: {'access-control-expose-headers': 'X-Debug-Trace-ID', 'cache-control': 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0', 'content-encoding': 'gzip', 'content-type': 'application/json', 'expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'pragma': 'no-cache', 'vary': 'Origin,Accept-Encoding', 'x-accel-expires': '0', 'x-debug-trace-id': 'd848050377f461c278c7bc762f5ec727', 'date': 'Tue, 24 Nov 2026 08:55:45 GMT', 'x-envoy-upstream-service-time': '2', 'server': 'envoy', 'via': '1.1 google', 'alt-svc': 'h3=\":443\"; ma=2592000', 'transfer-encoding': 'chunked'}, status_code: 429, body: {'id': 'b63e7689-9f4f-4d3d-8b39-fbc95e5bf100', 'message': \"You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions\"}"
+        }
+    ]
+}

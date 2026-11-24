@@ -1,0 +1,29 @@
+{
+    "retrieval_method": "Dense + BM25 + RRF + Cohere",
+    "total_questions": 5,
+    "successful_queries": 5,
+    "failed_queries": 0,
+    "bm25_build_latency": 18.23229110002285,
+    "total_evaluation_latency": 7.388863899977878,
+    "average_latency": {
+        "dense": 0.1341057999874465,
+        "bm25": 0.39002648000605405,
+        "fusion": 0.0010553999920375646,
+        "scheme_profiles": 0.18578624000074342,
+        "cohere": 0.7596008999738842,
+        "total": 1.4729812400066293
+    },
+    "metrics": {
+        "mrr": 0.0,
+        "map": 0.0,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 0.0,
+        "ndcg@3": 0.0,
+        "recall@5": 0.0,
+        "ndcg@5": 0.0,
+        "recall@10": 0.0,
+        "ndcg@10": 0.0
+    },
+    "failures": []
+}
