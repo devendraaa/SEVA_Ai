@@ -1,6 +1,5 @@
 
 import logging
-import time
 
 from retrieval.dense.dense import retrieve_dense_schemes
 from retrieval.bm25.retrieval import retrieve_bm25_schemes
@@ -9,6 +8,7 @@ from retrieval.reranking.scheme_profile import build_scheme_profiles
 from retrieval.reranking.cohere_rerank import rerank_schemes
 
 from observability.tracing import trace_span
+
 
 logger = logging.getLogger(__name__)
 
@@ -22,9 +22,7 @@ def retrieve_hybrid_schemes(
     rrf_k: int = 60,
     top_n: int = 10,
 ) -> dict:
-    """Execute instrumented Dense + BM25 + RRF + Cohere retrieval."""
-
-    pipeline_start = time.perf_counter()
+    """Execute Dense + BM25 + RRF + Cohere retrieval."""
 
     try:
         # 1. Dense retrieval
@@ -44,8 +42,8 @@ def retrieve_hybrid_schemes(
             if span:
                 span.update(
                     output={
-                        "retrieved_schemes": dense_results,
                         "count": len(dense_results),
+                        "retrieved_schemes": dense_results,
                     }
                 )
 
@@ -65,8 +63,8 @@ def retrieve_hybrid_schemes(
             if span:
                 span.update(
                     output={
-                        "retrieved_schemes": bm25_results,
                         "count": len(bm25_results),
+                        "retrieved_schemes": bm25_results,
                     }
                 )
 
@@ -89,8 +87,8 @@ def retrieve_hybrid_schemes(
             if span:
                 span.update(
                     output={
-                        "fused_results": fused_results,
                         "count": len(fused_results),
+                        "fused_results": fused_results,
                     }
                 )
 
@@ -112,17 +110,16 @@ def retrieve_hybrid_schemes(
             if span:
                 span.update(
                     output={
-                        "profiles": profiles,
                         "count": len(profiles),
+                        "profiles": profiles,
                     }
                 )
 
         # 5. Cohere reranking
         rerank_result = None
         rerank_error = None
-        rerank_status = "success"
-
-        rerank_start = time.perf_counter()
+        rerank_status = "failed"
+        reranked_results = []
 
         with trace_span(
             "cohere-reranking",
@@ -148,17 +145,14 @@ def retrieve_hybrid_schemes(
                 if span:
                     span.update(
                         output={
-                            "reranked_schemes": reranked_results,
                             "count": len(reranked_results),
                             "status": rerank_status,
-                            "retry_count": rerank_result["retry_count"],
+                            "reranked_schemes": reranked_results,
                         }
                     )
 
             except Exception as exc:
-                rerank_status = "failed"
                 rerank_error = str(exc)
-                reranked_results = []
 
                 logger.exception(
                     "Cohere reranking failed | using RRF fallback"
@@ -172,63 +166,43 @@ def retrieve_hybrid_schemes(
                         }
                     )
 
-        rerank_latency = time.perf_counter() - rerank_start
-
         # 6. Select final results
-        if rerank_status == "success":
+        if rerank_status == "success" and reranked_results:
             final_results = reranked_results
             final_method = "cohere"
+
         else:
             final_results = fused_results[:top_n]
             final_method = "rrf_fallback"
 
-        total_latency = time.perf_counter() - pipeline_start
-
-        latency_breakdown = {
-            "dense": dense_result["latency"],
-            "bm25": bm25_result["latency"],
-            "cohere": (
-                rerank_result["latency"]
-                if rerank_result else rerank_latency
-            ),
-            "cohere_total": rerank_latency,
-            "total": total_latency,
-        }
-
         logger.info(
             "Hybrid retrieval completed | "
             "dense=%d | bm25=%d | rrf=%d | "
-            "cohere=%d | method=%s | latency=%.4fs",
+            "cohere=%d | final=%d | method=%s",
             len(dense_results),
             len(bm25_results),
             len(fused_results),
             len(reranked_results),
+            len(final_results),
             final_method,
-            total_latency,
         )
 
         return {
             "query": query,
-
             "dense_results": dense_results,
             "bm25_results": bm25_results,
             "rrf_results": fused_results,
             "scheme_profiles": profiles,
             "reranked_results": reranked_results,
-
             "retrieved_schemes": final_results,
             "final_method": final_method,
-
             "rerank_status": rerank_status,
             "rerank_error": rerank_error,
-
             "dense_schemes": len(dense_results),
             "bm25_schemes": len(bm25_results),
             "fused_schemes": len(fused_results),
             "profile_count": len(profiles),
             "reranked_count": len(reranked_results),
-
-            "latency": latency_breakdown,
         }
 
     except Exception:

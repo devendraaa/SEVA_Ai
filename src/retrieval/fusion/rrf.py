@@ -3,7 +3,6 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-
 def reciprocal_rank_fusion(
     dense_results: list[dict],
     bm25_results: list[dict],

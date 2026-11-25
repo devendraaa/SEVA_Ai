@@ -65,16 +65,16 @@ def main():
             )
 
         # 6. Display latency
-        latency = result["latency"]
+        # latency = result["latency"]
 
-        print("\nLatency Breakdown:")
-        print(f"BM25 index build : {bm25_build_latency:.4f} sec")
-        print(f"Dense retrieval  : {latency['dense']:.4f} sec")
-        print(f"BM25 retrieval   : {latency['bm25']:.4f} sec")
-        print(f"RRF fusion       : {latency['fusion']:.4f} sec")
-        print(f"Profile building : {latency['scheme_profiles']:.4f} sec")
-        print(f"Cohere reranking : {latency['cohere']:.4f} sec")
-        print(f"Total query time : {latency['total']:.4f} sec")
+        # print("\nLatency Breakdown:")
+        # print(f"BM25 index build : {bm25_build_latency:.4f} sec")
+        # print(f"Dense retrieval  : {latency['dense']:.4f} sec")
+        # print(f"BM25 retrieval   : {latency['bm25']:.4f} sec")
+        # print(f"RRF fusion       : {latency['fusion']:.4f} sec")
+        # print(f"Profile building : {latency['scheme_profiles']:.4f} sec")
+        # print(f"Cohere reranking : {latency['cohere']:.4f} sec")
+        # print(f"Total query time : {latency['total']:.4f} sec")
 
     except Exception:
         logging.exception("Hybrid retrieval test failed")
