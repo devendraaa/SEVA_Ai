@@ -5514,6 +5514,7 @@ dependencies = [
     { name = "ragas" },
     { name = "rank-bm25" },
     { name = "redis" },
+    { name = "requests" },
     { name = "sentence-transformers" },
     { name = "tiktoken" },
 ]
@@ -5543,6 +5544,7 @@ requires-dist = [
     { name = "ragas", specifier = ">=0.4.4" },
     { name = "rank-bm25", specifier = ">=0.2.2" },
     { name = "redis", specifier = ">=8.1.0" },
+    { name = "requests", specifier = ">=2.34.2" },
     { name = "sentence-transformers", specifier = ">=6.2.0" },
     { name = "tiktoken", specifier = ">=0.14.0" },
 ]

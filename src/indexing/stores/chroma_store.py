@@ -50,31 +50,35 @@ def load_embedding_model():
     )
 
 
-def load_vectorstores():
-    """Load existing discovery and detail Chroma collections."""
+def load_vectorstores(embeddings=None):
+    """Load discovery and detail Chroma stores."""
 
-    if embeddings is None:
-        embeddings = load_embedding_model()
+    try:
+        # Load model only if one was not supplied.
+        if embeddings is None:
+            embeddings = load_embedding_model()
 
-    discovery_db = Chroma(
-        collection_name="seva_discovery_v1",
-        persist_directory=str(VECTORSTORE_DIR / "discovery"),
-        embedding_function=embeddings,
-    )
+        discovery_db = Chroma(
+            collection_name="seva_discovery_v1",
+            persist_directory=str(VECTORSTORE_DIR / "discovery"),
+            embedding_function=embeddings,
+        )
 
-    detail_db = Chroma(
-        collection_name="seva_detail_v1",
-        persist_directory=str(VECTORSTORE_DIR / "detail"),
-        embedding_function=embeddings,
-    )
+        detail_db = Chroma(
+            collection_name="seva_detail_v1",
+            persist_directory=str(VECTORSTORE_DIR / "detail"),
+            embedding_function=embeddings,
+        )
 
-    discovery_count = discovery_db._collection.count()
-    detail_count = detail_db._collection.count()
+        logger.info(
+            "Vector stores loaded | Discovery: %s | Detail: %s",
+            discovery_db._collection.count(),
+            detail_db._collection.count(),
+        )
 
-    logger.info(
-        "Vector stores loaded successfully | Discovery: %s | Detail: %s",
-        discovery_count,
-        detail_count,
-    )
+        return discovery_db, detail_db
 
-    return discovery_db, detail_db
+    except Exception:
+        logger.exception("Failed to load vector stores")
+        raise
+

@@ -75,3 +75,12 @@ Traceback (most recent call last):
                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: load_vectorstores() takes 0 positional arguments but 1 was given
 2026-11-26 12:34:08,545 | INFO | seva_ai | SEVA_AI shutdown completed
+2026-11-26 13:08:24,080 | INFO | seva_ai | Starting SEVA_AI application...
+2026-11-26 13:09:27,028 | INFO | seva_ai | Application initialized | Discovery: 23438 | Detail: 67945 | Time: 62.95s
+2026-11-26 13:16:56,578 | INFO | seva_ai | SEVA_Ai startup completed successfully.
+2026-11-26 13:45:45,859 | INFO | seva_ai | SEVA_AI shutdown completed
+2026-11-26 13:46:50,908 | INFO | seva_ai | Starting SEVA_Ai application...
+2026-11-26 13:49:42,656 | INFO | seva_ai | SEVA_Ai startup completed | Discovery=23438 | Detail=67945 | Time=171.75s
+2026-11-26 14:10:22,038 | INFO | seva_ai | SEVA_Ai application shutdown completed
+2026-11-26 14:11:23,895 | INFO | seva_ai | Starting SEVA_Ai application...
+2026-11-26 14:13:01,340 | INFO | seva_ai | SEVA_Ai startup completed | Discovery=23438 | Detail=67945 | Time=97.44s
