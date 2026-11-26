@@ -1,12 +1,14 @@
 
 import logging
 import os
+from functools import lru_cache
 
 from langfuse import get_client
 
 logger = logging.getLogger(__name__)
 
 
+@lru_cache(maxsize=1)
 def get_langfuse_client():
     """Return the shared Langfuse client."""
 

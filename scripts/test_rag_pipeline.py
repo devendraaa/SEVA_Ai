@@ -11,9 +11,13 @@ from retrieval.hybrid.retrieval import retrieve_hybrid_schemes
 from generation.llm.llm import invoke_llm
 from observability.tracing import trace_span
 from observability.langfuse_client import get_langfuse_client
+from core.langfuse_startup import initialize_seva
 
 
 load_dotenv()
+
+# Initialize SEVA_Ai before loading data or running retrieval
+langfuse = initialize_seva()
 
 logging.basicConfig(
     level=logging.INFO,
@@ -22,7 +26,7 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-QUERY = "What government schemes are available for farmers?"
+QUERY = "What government schemes are available for farmers in maharashtra?"
 
 RETRIEVAL_K = 30
 TOP_N = 5
@@ -235,7 +239,6 @@ def run_rag_pipeline(query: str) -> dict:
     except Exception:
         logger.exception("SEVA_Ai RAG pipeline failed")
         raise
-
 
 def main():
     try:

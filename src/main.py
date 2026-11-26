@@ -1,31 +1,50 @@
+import logging
 from contextlib import asynccontextmanager
+from time import perf_counter
 from fastapi import FastAPI
 from api.routes import health
 from core.logging import setup_logging
-from indexing import load_vectorstores
+from indexing import load_embedding_model, load_vectorstores
 
 logger = setup_logging()
 
-
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    logger.info("SEVA_AI application starting")
+    startup_time = perf_counter()
 
-    # Load existing embedding model and vector stores
-    discovery_db, detail_db = load_vectorstores()
+    logger.info("Starting SEVA_AI application...")
 
-    app.state.discovery_db = discovery_db
-    app.state.detail_db = detail_db
+    try:
+        # Load embedding model once
+        embeddings = load_embedding_model()
 
-    logger.info("Chroma vector stores initialized successfully")
+        # Load both Chroma stores using the same model instance
+        discovery_db, detail_db = load_vectorstores(embeddings)
 
-    yield
+        # Store shared resources
+        app.state.embeddings = embeddings
+        app.state.discovery_db = discovery_db
+        app.state.detail_db = detail_db
 
-    # Application shutdown
-    app.state.discovery_db = None
-    app.state.detail_db = None
+        logger.info(
+            "Application initialized | Discovery: %s | Detail: %s | Time: %.2fs",
+            discovery_db._collection.count(),
+            detail_db._collection.count(),
+            perf_counter() - startup_time,
+        )
 
-    logger.info("SEVA_AI application shutting down")
+        yield
+
+    except Exception:
+        logger.exception("SEVA_AI startup failed")
+        raise
+
+    finally:
+        app.state.embeddings = None
+        app.state.discovery_db = None
+        app.state.detail_db = None
+
+        logger.info("SEVA_AI shutdown completed")
 
 
 app = FastAPI(
@@ -42,5 +61,5 @@ app.include_router(health.router, prefix="/api/v1")
 async def root():
     return {
         "message": "Welcome to SEVA_AI",
-        "status": "running"
+        "status": "running",
     }

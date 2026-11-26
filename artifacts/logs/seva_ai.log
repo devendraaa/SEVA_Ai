@@ -64,3 +64,14 @@ FileNotFoundError: [Errno 2] No such file or directory: 'G:\\SEVA_Ai\\SEVA_Ai\\n
 2026-11-23 15:51:07,941 | INFO | seva_ai | SEVA_AI application starting
 2026-11-23 15:52:20,114 | INFO | seva_ai | Chroma vector stores initialized successfully
 2026-11-23 15:56:39,106 | INFO | seva_ai | SEVA_AI application shutting down
+2026-11-26 11:51:45,975 | INFO | seva_ai | SEVA_Ai startup completed successfully.
+2026-11-26 12:10:24,653 | INFO | seva_ai | SEVA_Ai startup completed successfully.
+2026-11-26 12:28:14,939 | INFO | seva_ai | SEVA_Ai startup completed successfully.
+2026-11-26 12:33:05,090 | INFO | seva_ai | Starting SEVA_AI application...
+2026-11-26 12:34:08,543 | ERROR | seva_ai | SEVA_AI startup failed
+Traceback (most recent call last):
+  File "G:\SEVA_Ai\SEVA_Ai\src\main.py", line 26, in lifespan
+    discovery_db, detail_db = load_vectorstores(embeddings)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: load_vectorstores() takes 0 positional arguments but 1 was given
+2026-11-26 12:34:08,545 | INFO | seva_ai | SEVA_AI shutdown completed

@@ -53,7 +53,8 @@ def load_embedding_model():
 def load_vectorstores():
     """Load existing discovery and detail Chroma collections."""
 
-    embeddings = load_embedding_model()
+    if embeddings is None:
+        embeddings = load_embedding_model()
 
     discovery_db = Chroma(
         collection_name="seva_discovery_v1",
