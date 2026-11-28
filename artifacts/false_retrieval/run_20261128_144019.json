@@ -1,0 +1,1301 @@
+{
+  "run_id": "20261128_144019",
+  "query": "What government schemes are available for farmers?",
+  "final_method": "cohere",
+  "rerank_status": "success",
+  "retrieval_stages": {
+    "dense": [
+      {
+        "scheme_id": "AqG_F5gBXu-iUKXq7ne9",
+        "rank": 1,
+        "chunk_rank": 1,
+        "distance": 0.541737973690033,
+        "section": "beneficiaries"
+      },
+      {
+        "scheme_id": "fhe5F5gB5uF80_MGSZBc",
+        "rank": 2,
+        "chunk_rank": 2,
+        "distance": 0.5719820261001587,
+        "section": "beneficiaries"
+      },
+      {
+        "scheme_id": "sBe5F5gB5uF80_MGwZCt",
+        "rank": 3,
+        "chunk_rank": 3,
+        "distance": 0.6112585663795471,
+        "section": "beneficiaries"
+      },
+      {
+        "scheme_id": "zcbTF5gB0AGc0F0itTYt",
+        "rank": 4,
+        "chunk_rank": 4,
+        "distance": 0.6130650639533997,
+        "section": "beneficiaries"
+      },
+      {
+        "scheme_id": "n8ehmZwB0AGc0F0iAARU",
+        "rank": 5,
+        "chunk_rank": 5,
+        "distance": 0.6169597506523132,
+        "section": "beneficiaries"
+      },
+      {
+        "scheme_id": "yhg4lZ0B5uF80_MGoGbk",
+        "rank": 6,
+        "chunk_rank": 6,
+        "distance": 0.626160740852356,
+        "section": "beneficiaries"
+      },
+      {
+        "scheme_id": "kxiR9pwB5uF80_MGNmL_",
+        "rank": 7,
+        "chunk_rank": 7,
+        "distance": 0.6285201907157898,
+        "section": "benefits"
+      },
+      {
+        "scheme_id": "X8a2F5gB0AGc0F0iHzQA",
+        "rank": 8,
+        "chunk_rank": 8,
+        "distance": 0.6308387517929077,
+        "section": "beneficiaries"
+      },
+      {
+        "scheme_id": "aKG3F5gBXu-iUKXqN3X8",
+        "rank": 9,
+        "chunk_rank": 9,
+        "distance": 0.6317760348320007,
+        "section": "beneficiaries"
+      },
+      {
+        "scheme_id": "p8czlZ0B0AGc0F0ikwx0",
+        "rank": 10,
+        "chunk_rank": 11,
+        "distance": 0.6443373560905457,
+        "section": "beneficiaries"
+      },
+      {
+        "scheme_id": "jcboF5gB0AGc0F0i5Den",
+        "rank": 11,
+        "chunk_rank": 12,
+        "distance": 0.6478551030158997,
+        "section": "beneficiaries"
+      },
+      {
+        "scheme_id": "lxe5F5gB5uF80_MGTpCW",
+        "rank": 12,
+        "chunk_rank": 14,
+        "distance": 0.6626152992248535,
+        "section": "beneficiaries"
+      },
+      {
+        "scheme_id": "rRgplZ0B5uF80_MGRGaV",
+        "rank": 13,
+        "chunk_rank": 18,
+        "distance": 0.6784329414367676,
+        "section": "beneficiaries"
+      },
+      {
+        "scheme_id": "9ce5Fp4B0AGc0F0iOQ9l",
+        "rank": 14,
+        "chunk_rank": 19,
+        "distance": 0.6788650751113892,
+        "section": "beneficiaries"
+      },
+      {
+        "scheme_id": "oaGtTpoBXu-iUKXq3Hr0",
+        "rank": 15,
+        "chunk_rank": 20,
+        "distance": 0.6814205646514893,
+        "section": "overview"
+      },
+      {
+        "scheme_id": "38fD_5wB0AGc0F0i5ghV",
+        "rank": 16,
+        "chunk_rank": 23,
+        "distance": 0.6854985952377319,
+        "section": "eligibility"
+      },
+      {
+        "scheme_id": "6ca5F5gB0AGc0F0iSjSm",
+        "rank": 17,
+        "chunk_rank": 24,
+        "distance": 0.6860796809196472,
+        "section": "eligibility"
+      },
+      {
+        "scheme_id": "gBe9F5gB5uF80_MGZpFU",
+        "rank": 18,
+        "chunk_rank": 25,
+        "distance": 0.6870347261428833,
+        "section": "beneficiaries"
+      },
+      {
+        "scheme_id": "7KG1F5gBXu-iUKXqJXS_",
+        "rank": 19,
+        "chunk_rank": 27,
+        "distance": 0.6925965547561646,
+        "section": "eligibility"
+      },
+      {
+        "scheme_id": "3cb9F5gB0AGc0F0ibTfh",
+        "rank": 20,
+        "chunk_rank": 28,
+        "distance": 0.6968064308166504,
+        "section": "benefits"
+      },
+      {
+        "scheme_id": "OqG2F5gBXu-iUKXqHnXE",
+        "rank": 21,
+        "chunk_rank": 29,
+        "distance": 0.6981505155563354,
+        "section": "eligibility"
+      },
+      {
+        "scheme_id": "LqE9GJgBXu-iUKXqBHm0",
+        "rank": 22,
+        "chunk_rank": 30,
+        "distance": 0.698298454284668,
+        "section": "beneficiaries"
+      }
+    ],
+    "bm25": [
+      {
+        "scheme_id": "rhd_lpoB5uF80_MG1c_v",
+        "rank": 1,
+        "chunk_rank": 1,
+        "section": "overview"
+      },
+      {
+        "scheme_id": "DaHXF5gBXu-iUKXqzHi8",
+        "rank": 2,
+        "chunk_rank": 2,
+        "section": "benefits"
+      },
+      {
+        "scheme_id": "WKFum5oBXu-iUKXqbsUF",
+        "rank": 3,
+        "chunk_rank": 3,
+        "section": "benefits"
+      },
+      {
+        "scheme_id": "-6HMlZoBXu-iUKXqNrHi",
+        "rank": 4,
+        "chunk_rank": 4,
+        "section": "overview"
+      },
+      {
+        "scheme_id": "qaGzF5gBXu-iUKXqi3TB",
+        "rank": 5,
+        "chunk_rank": 5,
+        "section": "overview"
+      },
+      {
+        "scheme_id": "aBeNbZoB5uF80_MGc5gD",
+        "rank": 6,
+        "chunk_rank": 6,
+        "section": "exclusions"
+      },
+      {
+        "scheme_id": "7Re_F5gB5uF80_MGiJGk",
+        "rank": 7,
+        "chunk_rank": 7,
+        "section": "exclusions"
+      },
+      {
+        "scheme_id": "IqHAF5gBXu-iUKXqbXeC",
+        "rank": 8,
+        "chunk_rank": 8,
+        "section": "benefits"
+      },
+      {
+        "scheme_id": "usa9F5gB0AGc0F0i3zWG",
+        "rank": 9,
+        "chunk_rank": 9,
+        "section": "exclusions"
+      },
+      {
+        "scheme_id": "wca9F5gB0AGc0F0i4DVd",
+        "rank": 10,
+        "chunk_rank": 10,
+        "section": "exclusions"
+      },
+      {
+        "scheme_id": "pRe9F5gB5uF80_MG4JH5",
+        "rank": 11,
+        "chunk_rank": 11,
+        "section": "exclusions"
+      },
+      {
+        "scheme_id": "7KG_F5gBXu-iUKXqhnbx",
+        "rank": 12,
+        "chunk_rank": 12,
+        "section": "exclusions"
+      },
+      {
+        "scheme_id": "MBgO7ZoB5uF80_MGelfQ",
+        "rank": 13,
+        "chunk_rank": 13,
+        "section": "overview"
+      },
+      {
+        "scheme_id": "mxf9F5gB5uF80_MGYJOs",
+        "rank": 14,
+        "chunk_rank": 14,
+        "section": "benefits"
+      },
+      {
+        "scheme_id": "sBe9F5gB5uF80_MG4pGs",
+        "rank": 15,
+        "chunk_rank": 15,
+        "section": "exclusions"
+      },
+      {
+        "scheme_id": "Z8a2F5gB0AGc0F0iHzT9",
+        "rank": 16,
+        "chunk_rank": 16,
+        "section": "eligibility"
+      },
+      {
+        "scheme_id": "Hsa1F5gB0AGc0F0iKDRC",
+        "rank": 17,
+        "chunk_rank": 17,
+        "section": "overview"
+      },
+      {
+        "scheme_id": "86IZ_psBXu-iUKXqRkXe",
+        "rank": 18,
+        "chunk_rank": 18,
+        "section": "exclusions"
+      },
+      {
+        "scheme_id": "aBezF5gB5uF80_MGi49q",
+        "rank": 19,
+        "chunk_rank": 19,
+        "section": "eligibility"
+      },
+      {
+        "scheme_id": "ARfHlZoB5uF80_MGXMwK",
+        "rank": 20,
+        "chunk_rank": 20,
+        "section": "benefits"
+      },
+      {
+        "scheme_id": "kxiR9pwB5uF80_MGNmL_",
+        "rank": 21,
+        "chunk_rank": 21,
+        "section": "eligibility"
+      },
+      {
+        "scheme_id": "PcbmhZkB0AGc0F0iqjku",
+        "rank": 22,
+        "chunk_rank": 22,
+        "section": "benefits"
+      },
+      {
+        "scheme_id": "q8a3F5gB0AGc0F0isDTM",
+        "rank": 23,
+        "chunk_rank": 23,
+        "section": "benefits"
+      },
+      {
+        "scheme_id": "p8bqF5gB0AGc0F0i9DeH",
+        "rank": 24,
+        "chunk_rank": 24,
+        "section": "exclusions"
+      },
+      {
+        "scheme_id": "rRf9F5gB5uF80_MGZZPn",
+        "rank": 25,
+        "chunk_rank": 25,
+        "section": "eligibility"
+      },
+      {
+        "scheme_id": "r6HTF5gBXu-iUKXqQ3d_",
+        "rank": 26,
+        "chunk_rank": 26,
+        "section": "eligibility"
+      },
+      {
+        "scheme_id": "aMa2F5gB0AGc0F0iIDQT",
+        "rank": 27,
+        "chunk_rank": 27,
+        "section": "overview"
+      },
+      {
+        "scheme_id": "Msa1F5gB0AGc0F0inDS1",
+        "rank": 28,
+        "chunk_rank": 28,
+        "section": "benefits"
+      },
+      {
+        "scheme_id": "oaG9F5gBXu-iUKXq3XbJ",
+        "rank": 29,
+        "chunk_rank": 29,
+        "section": "exclusions"
+      }
+    ],
+    "rrf": [
+      {
+        "scheme_id": "kxiR9pwB5uF80_MGNmL_",
+        "rrf_score": 0.027271052146674038,
+        "rank": 1
+      },
+      {
+        "scheme_id": "AqG_F5gBXu-iUKXq7ne9",
+        "rrf_score": 0.01639344262295082,
+        "rank": 2
+      },
+      {
+        "scheme_id": "rhd_lpoB5uF80_MG1c_v",
+        "rrf_score": 0.01639344262295082,
+        "rank": 3
+      },
+      {
+        "scheme_id": "fhe5F5gB5uF80_MGSZBc",
+        "rrf_score": 0.016129032258064516,
+        "rank": 4
+      },
+      {
+        "scheme_id": "DaHXF5gBXu-iUKXqzHi8",
+        "rrf_score": 0.016129032258064516,
+        "rank": 5
+      },
+      {
+        "scheme_id": "sBe5F5gB5uF80_MGwZCt",
+        "rrf_score": 0.015873015873015872,
+        "rank": 6
+      },
+      {
+        "scheme_id": "WKFum5oBXu-iUKXqbsUF",
+        "rrf_score": 0.015873015873015872,
+        "rank": 7
+      },
+      {
+        "scheme_id": "zcbTF5gB0AGc0F0itTYt",
+        "rrf_score": 0.015625,
+        "rank": 8
+      },
+      {
+        "scheme_id": "-6HMlZoBXu-iUKXqNrHi",
+        "rrf_score": 0.015625,
+        "rank": 9
+      },
+      {
+        "scheme_id": "n8ehmZwB0AGc0F0iAARU",
+        "rrf_score": 0.015384615384615385,
+        "rank": 10
+      },
+      {
+        "scheme_id": "qaGzF5gBXu-iUKXqi3TB",
+        "rrf_score": 0.015384615384615385,
+        "rank": 11
+      },
+      {
+        "scheme_id": "yhg4lZ0B5uF80_MGoGbk",
+        "rrf_score": 0.015151515151515152,
+        "rank": 12
+      },
+      {
+        "scheme_id": "aBeNbZoB5uF80_MGc5gD",
+        "rrf_score": 0.015151515151515152,
+        "rank": 13
+      },
+      {
+        "scheme_id": "7Re_F5gB5uF80_MGiJGk",
+        "rrf_score": 0.014925373134328358,
+        "rank": 14
+      },
+      {
+        "scheme_id": "X8a2F5gB0AGc0F0iHzQA",
+        "rrf_score": 0.014705882352941176,
+        "rank": 15
+      },
+      {
+        "scheme_id": "IqHAF5gBXu-iUKXqbXeC",
+        "rrf_score": 0.014705882352941176,
+        "rank": 16
+      },
+      {
+        "scheme_id": "aKG3F5gBXu-iUKXqN3X8",
+        "rrf_score": 0.014492753623188406,
+        "rank": 17
+      },
+      {
+        "scheme_id": "usa9F5gB0AGc0F0i3zWG",
+        "rrf_score": 0.014492753623188406,
+        "rank": 18
+      },
+      {
+        "scheme_id": "p8czlZ0B0AGc0F0ikwx0",
+        "rrf_score": 0.014285714285714285,
+        "rank": 19
+      },
+      {
+        "scheme_id": "wca9F5gB0AGc0F0i4DVd",
+        "rrf_score": 0.014285714285714285,
+        "rank": 20
+      },
+      {
+        "scheme_id": "jcboF5gB0AGc0F0i5Den",
+        "rrf_score": 0.014084507042253521,
+        "rank": 21
+      },
+      {
+        "scheme_id": "pRe9F5gB5uF80_MG4JH5",
+        "rrf_score": 0.014084507042253521,
+        "rank": 22
+      },
+      {
+        "scheme_id": "lxe5F5gB5uF80_MGTpCW",
+        "rrf_score": 0.013888888888888888,
+        "rank": 23
+      },
+      {
+        "scheme_id": "7KG_F5gBXu-iUKXqhnbx",
+        "rrf_score": 0.013888888888888888,
+        "rank": 24
+      },
+      {
+        "scheme_id": "rRgplZ0B5uF80_MGRGaV",
+        "rrf_score": 0.0136986301369863,
+        "rank": 25
+      },
+      {
+        "scheme_id": "MBgO7ZoB5uF80_MGelfQ",
+        "rrf_score": 0.0136986301369863,
+        "rank": 26
+      },
+      {
+        "scheme_id": "9ce5Fp4B0AGc0F0iOQ9l",
+        "rrf_score": 0.013513513513513514,
+        "rank": 27
+      },
+      {
+        "scheme_id": "mxf9F5gB5uF80_MGYJOs",
+        "rrf_score": 0.013513513513513514,
+        "rank": 28
+      },
+      {
+        "scheme_id": "oaGtTpoBXu-iUKXq3Hr0",
+        "rrf_score": 0.013333333333333334,
+        "rank": 29
+      },
+      {
+        "scheme_id": "sBe9F5gB5uF80_MG4pGs",
+        "rrf_score": 0.013333333333333334,
+        "rank": 30
+      },
+      {
+        "scheme_id": "38fD_5wB0AGc0F0i5ghV",
+        "rrf_score": 0.013157894736842105,
+        "rank": 31
+      },
+      {
+        "scheme_id": "Z8a2F5gB0AGc0F0iHzT9",
+        "rrf_score": 0.013157894736842105,
+        "rank": 32
+      },
+      {
+        "scheme_id": "6ca5F5gB0AGc0F0iSjSm",
+        "rrf_score": 0.012987012987012988,
+        "rank": 33
+      },
+      {
+        "scheme_id": "Hsa1F5gB0AGc0F0iKDRC",
+        "rrf_score": 0.012987012987012988,
+        "rank": 34
+      },
+      {
+        "scheme_id": "gBe9F5gB5uF80_MGZpFU",
+        "rrf_score": 0.01282051282051282,
+        "rank": 35
+      },
+      {
+        "scheme_id": "86IZ_psBXu-iUKXqRkXe",
+        "rrf_score": 0.01282051282051282,
+        "rank": 36
+      },
+      {
+        "scheme_id": "7KG1F5gBXu-iUKXqJXS_",
+        "rrf_score": 0.012658227848101266,
+        "rank": 37
+      },
+      {
+        "scheme_id": "aBezF5gB5uF80_MGi49q",
+        "rrf_score": 0.012658227848101266,
+        "rank": 38
+      },
+      {
+        "scheme_id": "3cb9F5gB0AGc0F0ibTfh",
+        "rrf_score": 0.0125,
+        "rank": 39
+      },
+      {
+        "scheme_id": "ARfHlZoB5uF80_MGXMwK",
+        "rrf_score": 0.0125,
+        "rank": 40
+      },
+      {
+        "scheme_id": "OqG2F5gBXu-iUKXqHnXE",
+        "rrf_score": 0.012345679012345678,
+        "rank": 41
+      },
+      {
+        "scheme_id": "LqE9GJgBXu-iUKXqBHm0",
+        "rrf_score": 0.012195121951219513,
+        "rank": 42
+      },
+      {
+        "scheme_id": "PcbmhZkB0AGc0F0iqjku",
+        "rrf_score": 0.012195121951219513,
+        "rank": 43
+      },
+      {
+        "scheme_id": "q8a3F5gB0AGc0F0isDTM",
+        "rrf_score": 0.012048192771084338,
+        "rank": 44
+      },
+      {
+        "scheme_id": "p8bqF5gB0AGc0F0i9DeH",
+        "rrf_score": 0.011904761904761904,
+        "rank": 45
+      },
+      {
+        "scheme_id": "rRf9F5gB5uF80_MGZZPn",
+        "rrf_score": 0.011764705882352941,
+        "rank": 46
+      },
+      {
+        "scheme_id": "r6HTF5gBXu-iUKXqQ3d_",
+        "rrf_score": 0.011627906976744186,
+        "rank": 47
+      },
+      {
+        "scheme_id": "aMa2F5gB0AGc0F0iIDQT",
+        "rrf_score": 0.011494252873563218,
+        "rank": 48
+      },
+      {
+        "scheme_id": "Msa1F5gB0AGc0F0inDS1",
+        "rrf_score": 0.011363636363636364,
+        "rank": 49
+      },
+      {
+        "scheme_id": "oaG9F5gBXu-iUKXq3XbJ",
+        "rrf_score": 0.011235955056179775,
+        "rank": 50
+      }
+    ],
+    "cohere": [
+      {
+        "scheme_id": "kxiR9pwB5uF80_MGNmL_",
+        "rank": 1,
+        "relevance_score": 0.8004389,
+        "original_rrf_rank": 1,
+        "rrf_score": 0.027271052146674038
+      },
+      {
+        "scheme_id": "aKG3F5gBXu-iUKXqN3X8",
+        "rank": 2,
+        "relevance_score": 0.73902535,
+        "original_rrf_rank": 17,
+        "rrf_score": 0.014492753623188406
+      },
+      {
+        "scheme_id": "9ce5Fp4B0AGc0F0iOQ9l",
+        "rank": 3,
+        "relevance_score": 0.73303616,
+        "original_rrf_rank": 27,
+        "rrf_score": 0.013513513513513514
+      },
+      {
+        "scheme_id": "sBe5F5gB5uF80_MGwZCt",
+        "rank": 4,
+        "relevance_score": 0.7229851,
+        "original_rrf_rank": 6,
+        "rrf_score": 0.015873015873015872
+      },
+      {
+        "scheme_id": "6ca5F5gB0AGc0F0iSjSm",
+        "rank": 5,
+        "relevance_score": 0.72281015,
+        "original_rrf_rank": 33,
+        "rrf_score": 0.012987012987012988
+      },
+      {
+        "scheme_id": "n8ehmZwB0AGc0F0iAARU",
+        "rank": 6,
+        "relevance_score": 0.71475,
+        "original_rrf_rank": 10,
+        "rrf_score": 0.015384615384615385
+      },
+      {
+        "scheme_id": "aBeNbZoB5uF80_MGc5gD",
+        "rank": 7,
+        "relevance_score": 0.7142932,
+        "original_rrf_rank": 13,
+        "rrf_score": 0.015151515151515152
+      },
+      {
+        "scheme_id": "aBezF5gB5uF80_MGi49q",
+        "rank": 8,
+        "relevance_score": 0.71226275,
+        "original_rrf_rank": 38,
+        "rrf_score": 0.012658227848101266
+      },
+      {
+        "scheme_id": "7KG1F5gBXu-iUKXqJXS_",
+        "rank": 9,
+        "relevance_score": 0.71167153,
+        "original_rrf_rank": 37,
+        "rrf_score": 0.012658227848101266
+      },
+      {
+        "scheme_id": "LqE9GJgBXu-iUKXqBHm0",
+        "rank": 10,
+        "relevance_score": 0.7108789,
+        "original_rrf_rank": 42,
+        "rrf_score": 0.012195121951219513
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "scheme_id": "kxiR9pwB5uF80_MGNmL_",
+      "text": "Scheme: National Agriculture Insurance Scheme\nSection: overview\nThe National Agriculture Insurance Scheme (NAIS) was introduced by the Government of India to provide comprehensive insurance coverage and financial support to farmers against crop losses due to natural calamities, pests, and diseases.\n\nScheme: National Agriculture Insurance Scheme\nSection: benefits\n> **Comprehensive Crop Coverage:**\n\n - Protection against crop loss due to natural calamities (floods, droughts, hailstorms), pests, diseases, and localized risks.\n - Includes coverage for sowing, standing crops, and post-harvest losses.\n\n> **Subsidized Premiums for Small Farmers:**\n\n - Small and marginal farmers receive premium subsidies, making the scheme affordable for them.\n\n> **Affordable Premiums for All Farmers:**\n\n - Low premium rates for both loanee and non-loanee farmers, with premiums deducted from agricultural loans.\n\n> **Quick Claim Settlement:**\n\n - Fast processing and direct claim settlement to the farmer’s bank account.\n\n> **Encourages Better Farming Practices:**\n\n> **Encourages Better Farming Practices:**\n\n - Promotes risk mitigation and adoption of modern agricultural practices, increasing productivity.\n\n> **Wide Crop Coverage:**\n\n - Covers food crops, oilseeds, and horticultural crops, ensuring protection for most farmers.\n\n> **Nationwide Accessibility:**\n\n - Available to farmers across the country, making it a national safety net.\n\n**Premium Rates**\n\n- Food crops and oilseeds:\n\n - Kharif crops: 3.5% of the sum insured.\n - Rabi crops: 1.5% of the sum insured.\n\n- Commercial and horticultural crops: Actuarial premium rates apply.\n- The premium for Small & Marginal farmers is subsidised to the extent of 10% which is shared by the State Govt. and Govt. of India\n\nScheme: National Agriculture Insurance Scheme\nSection: eligibility\n> **Loanee Farmers:**\n\n1. Farmers who avail seasonal agricultural operations (SAO) loans from financial institutions (banks, co-operative societies, etc.) are automatically covered under the scheme.\n1. The coverage for loanee farmers is compulsory, and premiums are deducted from the loan amount.\n\n> **Non-Loanee Farmers:**\n\n1. Non-loanee farmers can apply voluntarily for the insurance coverage.\n1. The application must be submitted before the deadline for each crop season.\n\n> **Notified Crops and Areas:**\n\n1. The crops to be insured and the areas where the scheme is applicable are announced by the government each year.\n\nScheme: National Agriculture Insurance Scheme\nSection: beneficiaries\nFamily; Individual",
+      "stage_ranks": {
+        "dense": 7,
+        "bm25": 21,
+        "rrf": 1,
+        "cohere": 1
+      },
+      "verdict": "relevant",
+      "score": 0.96,
+      "reason": "provides insurance coverage to farmers"
+    },
+    {
+      "scheme_id": "AqG_F5gBXu-iUKXq7ne9",
+      "text": "Scheme: Scheme to Encourage Farmers to Add Value to Crops\nSection: overview\nThe scheme provides financial assistance to farmers across Gujarat in adding value to their crops by providing financial assistance for purchasing machinery.\n\nScheme: Scheme to Encourage Farmers to Add Value to Crops\nSection: benefits\n- **Financial Assistance:** 50% of the machinery cost or ₹10,00,000/-, whichever is less.\n\nScheme: Scheme to Encourage Farmers to Add Value to Crops\nSection: eligibility\n1. The applicant must be a farmer.\n 1. The applicant must be a resident of Gujarat.\n 1. The applicant must be involved in agriculture-related activities.\n 1. The applicant must intend to purchase machinery for value addition.\n\nScheme: Scheme to Encourage Farmers to Add Value to Crops\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "dense": 1,
+        "rrf": 2
+      },
+      "verdict": "relevant",
+      "score": 0.95,
+      "reason": "financial aid for farmers to add value to crops"
+    },
+    {
+      "scheme_id": "rhd_lpoB5uF80_MG1c_v",
+      "text": "Scheme: Registration of Aromatic Plant Farmers - Centre for Aromatic Plants\nSection: overview\nThe registration ensures that farmers are eligible to access the benefits of all schemes offered by CAP, including state and central government subsidies, technical guidance, training programs, and product clearance support.\n\nScheme: Registration of Aromatic Plant Farmers - Centre for Aromatic Plants\nSection: benefits\n- Registration of farmers with the Aromatic Plant Centre (CAP) is mandatory to avail of the benefits of all the schemes run by the Aromatic Plant Centre.\n - After registration, CAP provides farmers with facilities such as subsidies provided by the State and Central Governments, technical information, training, product clearance, etc.\n\nScheme: Registration of Aromatic Plant Farmers - Centre for Aromatic Plants\nSection: eligibility\n1. The applicant must be a resident of Uttarakhand.\n 1. The applicant must be a farmer.\n 1. The farmer must either legally own agricultural land or have leased land for a minimum period of 10 years.\n 1. The farmer must be engaged in aromatic plant cultivation.\n\nScheme: Registration of Aromatic Plant Farmers - Centre for Aromatic Plants\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "bm25": 1,
+        "rrf": 3
+      },
+      "verdict": "relevant",
+      "score": 0.94,
+      "reason": "registers aromatic plant farmers for scheme benefits"
+    },
+    {
+      "scheme_id": "fhe5F5gB5uF80_MGSZBc",
+      "text": "Scheme: Supply of Agriculture Machineries Scheme\nSection: overview\nThe objective of the scheme is to distribute and sale of agricultural machinery such as Power Tillers, etc. to farmers at subsidized rates.\n\nScheme: Supply of Agriculture Machineries Scheme\nSection: benefits\n> **Pattern of Assistance:**\n\n- Subsidy on Power tillers, Reapers, Harvesters, etc.\n\n> **Type of Assistance and Entitlement (If Any):**\n\n- 50% subsidy sale.\n\nScheme: Supply of Agriculture Machineries Scheme\nSection: eligibility\n1. The applicant should be a permanent resident of Meghalaya.\n1. The applicant should be a bonafide farmer engaged in agriculture.\n\nScheme: Supply of Agriculture Machineries Scheme\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "dense": 2,
+        "rrf": 4
+      },
+      "verdict": "relevant",
+      "score": 0.95,
+      "reason": "subsidised agricultural machinery for farmers"
+    },
+    {
+      "scheme_id": "DaHXF5gBXu-iUKXqzHi8",
+      "text": "Scheme: Plastic Tunnel (Lo-Tunnel)\nSection: overview\nPlastic tunnels (low tunnels) provide benefits to farmers. These are protected structures created by covering each crop bed with a low-lying plastic sheet after the crops have been planted in the main field.\n\nScheme: Plastic Tunnel (Lo-Tunnel)\nSection: benefits\n1. 50 percent subsidy is available for a maximum of 1000 square meters.\n1. Small/marginal category farmers are given a 75 percent subsidy for a maximum of 4000 square meters.\n\nScheme: Plastic Tunnel (Lo-Tunnel)\nSection: eligibility\n1. The applicant should be a native of Rajasthan.\n1. The applicant should be a farmer.\n1. The applicant must have agricultural land ownership and irrigation sources.\n\nScheme: Plastic Tunnel (Lo-Tunnel)\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "bm25": 2,
+        "rrf": 5
+      },
+      "verdict": "relevant",
+      "score": 0.94,
+      "reason": "subsidy for plastic tunnels to farmers"
+    },
+    {
+      "scheme_id": "sBe5F5gB5uF80_MGwZCt",
+      "text": "Scheme: Financial Assistance Scheme for Purchase of Agricultural Land to Scheduled Caste Farmers\nSection: overview\nThe scheme was launched on in the year 1986. Under the scheme, financial assistance is provided to farmers belonging to the scheduled castes to purchase agricultural land, with a maximum limit of 2 acres, for self-cultivation.\n\nScheme: Financial Assistance Scheme for Purchase of Agricultural Land to Scheduled Caste Farmers\nSection: benefits\n1. Under the scheme, Scheduled caste farmers are provided with financial assistance of ₹1,00,000/- per acre to purchase agricultural land.\n 1. Assistance is provided up to ₹2,00,000/- for a maximum of 2 acres to enable the purchase of agricultural land.\n\nScheme: Financial Assistance Scheme for Purchase of Agricultural Land to Scheduled Caste Farmers\nSection: eligibility\n1. The applicant should belong to Scheduled Castes Category.\n 1. The applicant should be a native of Gujarat.\n 1. The applicant must be an agricultural labourer.\n 1. The annual income limit will be ₹6,00,000/- for rural areas and ₹6,00,000/- for urban areas.\n 1. Excluding government assistance, only the beneficiary who is able to purchase the land is eligible for the benefit.\n 1. Only one member of the family is eligible for the benefit.\n 1. Beneficiaries of land acquired with government assistance will be subject to non-sale for 15 years.\n 1. Under this scheme, assistance will be available for purchasing agricultural land from government or private individuals.\n\nScheme: Financial Assistance Scheme for Purchase of Agricultural Land to Scheduled Caste Farmers\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "dense": 3,
+        "rrf": 6,
+        "cohere": 4
+      },
+      "verdict": "relevant",
+      "score": 0.92,
+      "reason": "Financial aid for SC farmers to buy land"
+    },
+    {
+      "scheme_id": "WKFum5oBXu-iUKXqbsUF",
+      "text": "Scheme: Exhibition Fair and Publicity\nSection: overview\nThe scheme aims to promote departmental schemes and disseminate information about the technology of fruit, flower, vegetable, and spice crops to farmers through exhibitions and seminars organized at the district and block levels.\n\nScheme: Exhibition Fair and Publicity\nSection: benefits\n- **Awareness Creation:** Farmers receive knowledge about horticulture schemes and technologies related to fruit, flower, vegetable, and spice crops. - **Scheme Promotion:** Departmental schemes are publicized to ensure more participation and benefit utilization among farmers.\n\nScheme: Exhibition Fair and Publicity\nSection: eligibility\n- The applicant must be a farmer.\n - The applicant must be a resident of Madhya Pradesh.\n\nScheme: Exhibition Fair and Publicity\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "bm25": 3,
+        "rrf": 7
+      },
+      "verdict": "relevant",
+      "score": 0.88,
+      "reason": "Exhibitions inform farmers about horticulture schemes"
+    },
+    {
+      "scheme_id": "zcbTF5gB0AGc0F0itTYt",
+      "text": "Scheme: Zero Budget Natural Farming\nSection: overview\nThe Rajasthan State government started a scheme \"Zero Budget Natual Farming\" in 2020-21 to promote natural farming.\n\nScheme: Zero Budget Natural Farming\nSection: benefits\n1. A subsidy of 50% provides to farmers to buy the farming items.\n 1. A large drum of 200 litres, a small drum of 50 litres capacity, a bucket of 20 litres capacity, a Jug, filter, water spray, sprayer, Trichoderma, cow-urine, dung, etc. Material and organic mulch material like leaves of trees, weed bedding, leaves of millet-sorghum, etc., groundnut peels, and in the field for moisture conservation between the rows, 50% of the total cost of available other waste material or a maximum of Rs.600/- per farmer will be given as subsidy by DBT. \n 1. Training and Farmers Tours.\n 1. Gram Panchayat level Training.\n\nScheme: Zero Budget Natural Farming\nSection: eligibility\n1. Interested farmers should be selected for the scheme who have a special interest in natural farming. Every farmer must have a minimum of one-acre land ownership or family account holder.\n1. Interested farmers may be from the same village, neighboring villages, or different villages as far as possible. \n1. Interested farmers will be selected by the Regional Assistant Agriculture Officer / Agriculture Supervisor.\n1. Horticulture crops and animal husbandry should also be included in natural farming.\n1. For the selection of farmers, priority should be given to SC, ST, BPL, small and marginal farmers as much as possible. Youths up to 35 years should be included for natural farming so that their capacity can increase.\n\n1. Necessary material like drum, bucket, jug etc. will be given on grant to the concerned farmer for setting up the input unit for natural farming. \n1. Farmers selected under Paramparagat Krishi Vikas Yojana should not be included in this scheme.\n\nScheme: Zero Budget Natural Farming\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "dense": 4,
+        "rrf": 8
+      },
+      "verdict": "relevant",
+      "score": 0.9,
+      "reason": "Subsidy and training for natural farming to farmers"
+    },
+    {
+      "scheme_id": "-6HMlZoBXu-iUKXqNrHi",
+      "text": "Scheme: Udhyan Card\nSection: overview\nIt aims to create a unified identification system for farmers engaged in horticulture activities, enabling them to access all horticulture-related schemes and benefits provided by the Government of Uttarakhand.\n\nScheme: Udhyan Card\nSection: benefits\nThe Udhyan Card is mandatory to avail the benefits of all schemes of the Department of Horticulture.\n\nScheme: Udhyan Card\nSection: eligibility\n1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be a farmer who wishes to undertake horticulture activities.\n1. The applicant must have their own or leased land.\n\nScheme: Udhyan Card\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "bm25": 4,
+        "rrf": 9
+      },
+      "verdict": "relevant",
+      "score": 0.85,
+      "reason": "Udhyan Card enables horticulture farmers to access schemes"
+    },
+    {
+      "scheme_id": "n8ehmZwB0AGc0F0iAARU",
+      "text": "Scheme: FOCUS Scheme (Farmers Collectivization For Upscaling Production and Marketing System)\nSection: overview\nThe objective of the FOCUS Scheme is to strengthen farmer groups, increase production, and improve market access to enhance farmers’ income.\n\nScheme: FOCUS Scheme (Farmers Collectivization For Upscaling Production and Marketing System)\nSection: benefits\n1. The subsidy is disbursed through approved financing partners.\n1. Loans are provided by selected partner banks with a repayment period of up to 15 years.\n1. There are no pre-closure penalties on the loan.\n1. The Government of Meghalaya pays 80% of the total project cost upfront.\n1. The remaining 20% is provided as a bank loan (5% paid by the entrepreneur and 75% by the government).\n1. Agriculture and Agri-allied Producer Groups (PGs) receive an annual cash benefit ranging from ₹50,000 to ₹1,00,000.\n\nScheme: FOCUS Scheme (Farmers Collectivization For Upscaling Production and Marketing System)\nSection: eligibility\n1. The Producer Group must consist of 10 to 20 producers from the same village.\n1. The members must be engaged in the same or similar agricultural or allied activities with high income-generation potential.\n1. The group must formally form a Producer Group (PG) under the scheme.\n1. Each member must hold a valid Family ID/Citizen ID of Meghalaya.\n1. All members must belong to different households.\n1. Each member must have a separate and unique Family ID of Meghalaya.\n\nScheme: FOCUS Scheme (Farmers Collectivization For Upscaling Production and Marketing System)\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "dense": 5,
+        "rrf": 10,
+        "cohere": 6
+      },
+      "verdict": "relevant",
+      "score": 0.87,
+      "reason": "Supports farmer groups with subsidies and loans"
+    },
+    {
+      "scheme_id": "qaGzF5gBXu-iUKXqi3TB",
+      "text": "Scheme: Mukhya Mantri Krishi Sa Sajuli Yozana - Assam\nSection: overview\nThe scheme “Mukhya Mantri Krishi Sa Sajuli Yojana” is a State Owned Priority Development (SOPD) scheme for farmers launched by the Assam government in FY 2018-19. The main purpose of launching this scheme for farmers is their holistic development by implementing several farm mechanization schemes.\n\nScheme: Mukhya Mantri Krishi Sa Sajuli Yozana - Assam\nSection: benefits\n\n{'type': 'ol_list', 'children': [{'type': 'list_item', 'children': [{'text': 'Through this scheme farm mechanization for the cultivation of different crops will be promoted in order to increase the production and productivity of different crops.'}]}, {'type': 'list_item', 'children': [{'text': 'With the implementation of this scheme income of farmers will increase. Other than that this scheme will also save the labour and time of the farmers.'}]}, {'type': 'list_item', 'children': [{'text': 'Through this scheme financial assistance of ₹ 5000 will be provided to every farmer to procure farm tools and the assistance will be provided through Direct Benefit Transfer.'}]}, {'type': 'list_item', 'children': [{'text': 'This scheme promotes scientific cultivation practices by encouraging farmers\n\n'children': [{'text': 'This scheme promotes scientific cultivation practices by encouraging farmers in procuring scientific farm tools. '}]}, {'type': 'list_item', 'children': [{'text': \"This scheme helps in the transfer of technology to the farmer's field.\"}]}]}\n\nScheme: Mukhya Mantri Krishi Sa Sajuli Yozana - Assam\nSection: eligibility\n1. The beneficiary should be a resident farmer of Assam.\n1. Only small and marginal farmers are eligible for the benefit under the scheme.\n1. The beneficiary should be more than 21 years old.\n1. He or she should be involved in cultivation for at least three consecutive years.\n1. All Kisan Credit Card (KCC) holders are eligible to apply under the scheme.\n1. The applicant Beneficiary should have a live bank account.\n1. Only one farmer per family shall be eligible for the benefit under the scheme.\n1. Tenant farmers or sharecroppers with a minimum cultivation area of 1 Acre / 3 Bighas may also be considered under the scheme.\n\nScheme: Mukhya Mantri Krishi Sa Sajuli Yozana - Assam\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "bm25": 5,
+        "rrf": 11
+      },
+      "verdict": "relevant",
+      "score": 0.95,
+      "reason": "Directly provides financial assistance to farmers for procuring agricultural tools."
+    },
+    {
+      "scheme_id": "yhg4lZ0B5uF80_MGoGbk",
+      "text": "Scheme: Primary Cooperative Agriculture and Rural Development Bank: For Tractor Purchase\nSection: overview\nThe scheme offers a specialized loan for farmers to purchase tractors, covering up to 90% of the tractor's cost.\n\nScheme: Primary Cooperative Agriculture and Rural Development Bank: For Tractor Purchase\nSection: benefits\n- **Access to Loan:** Covers up to 90% of the tractor cost. - **Interest Rate:** 11% to 12.25% (subject to change).\n\nScheme: Primary Cooperative Agriculture and Rural Development Bank: For Tractor Purchase\nSection: eligibility\n1. The beneficiary should be a resident of Tamil Nadu.\n 1. The beneficiary should be a farmer.\n 1. The beneficiary should be engaged in agriculture activities.\n 1. The beneficiary should have the intention to use the loan specifically for purchasing Tractor.\n\nScheme: Primary Cooperative Agriculture and Rural Development Bank: For Tractor Purchase\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "dense": 6,
+        "rrf": 12
+      },
+      "verdict": "relevant",
+      "score": 0.9,
+      "reason": "Provides specialized loan assistance for farmers to purchase tractors."
+    },
+    {
+      "scheme_id": "aBeNbZoB5uF80_MGc5gD",
+      "text": "Scheme: Dairy Equipment Scheme\nSection: overview\nThe scheme aims to help Goan dairy farmers purchase essential equipment by offering a 75% subsidy on approved dairy machinery, promoting efficiency and productivity in dairy farming.\n\nScheme: Dairy Equipment Scheme\nSection: benefits\n- Subsidy provided for the purchase of new dairy equipment or implements.\n- Subsidy at 75% of the permissible cost limited to ₹2,00,000/- on total equipment purchased.\n- Equipment permissible cost ranges between ₹180/- and ₹70,000/- per unit as per category and quantity of milch animals owned.\n- Maximum total subsidy limited to ₹2,00,000/- per beneficiary.\n- Subsidy amount is directly credited to the beneficiary’s bank account through Electronic Clearance System (ECS).\n\n_*Subsidy is available only for new equipment that is not previously subsidised under any other Government scheme._\n_*Subsidy applicable for equipment purchased from authorised dealers registered with the Directorate of Animal Husbandry and Veterinary Services, Government of Goa._\n\n> ***Conditions for Availment***\n\n- Purchase approval from Directorate, submission of bills, photographs of installed equipment, and adherence to scheme guidelines.\n- Beneficiary must maintain the equipment and not sell or transfer it for at least 42 months (3.5 years) from the date of subsidy release.\n\n_*Breach of terms permits Government to recover subsidy through other incentives or revenue code._\n\nScheme: Dairy Equipment Scheme\nSection: eligibility\n- The applicant must be a farmer owning dairy milch animals.\n- The applicant must be a bona fide resident of Goa for at least the preceding 5 years.\n- The applicant must own cattle shed with milch animals within the State of Goa.\n- The applicant must not have claimed subsidy for the same items under any other scheme.\n- The applicant must obtain prior approval from the Directorate before purchasing the equipment.\n- The applicant must purchase only new equipment from authorised registered dealers located in Goa offering after-sales services.\n\n**Eligible Equipment:** Generator Set, Chaff Cutter, Animal Shed Washer, Spray Pump, Dehorner, Hoof Trimmer, Hoof Trimming Knife Set, Milking Machine (Single or Double Cluster), Cluster Can Assembly, Calf Nipple Bucket, Treatment Crate, Milk Cans, Nylon Ropes, Fans for Cow Shed, Pvc Pipeline for Dung Disposal, Wheelbarrow, Water Storage Tank, Sickles, Pickaxe, Gamelas, Rubber Mats, Wall-mounted or Pedestal Industrial Fans.\n\nScheme: Dairy Equipment Scheme\nSection: exclusions\nSubsidy is not available for equipment that are previously subsidised under any other Government scheme.\n\nScheme: Dairy Equipment Scheme\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "bm25": 6,
+        "rrf": 13,
+        "cohere": 7
+      },
+      "verdict": "relevant",
+      "score": 0.85,
+      "reason": "Offers subsidies to dairy farmers for purchasing essential farming equipment."
+    },
+    {
+      "scheme_id": "7Re_F5gB5uF80_MGiJGk",
+      "text": "Scheme: Scheme of Assistance for Common Environment Infrastructure: Financial Assistance for Common Environmental Infrastructure Facilities\nSection: overview\nThe scheme \"Scheme of Assistance for Common Environment Infrastructure\" under the Gujarat Industrial Policy aims to provide incentives for environmental compliance to ensure long-term economic and ecological balance.\n\nScheme: Scheme of Assistance for Common Environment Infrastructure: Financial Assistance for Common Environmental Infrastructure Facilities\nSection: benefits\n- **General Projects:** Up to 40% financial assistance, with a maximum limit of ₹50,00,00,000/-. - **Government Projects:** Assistance up to 80% for Government Departments, Agencies, PSUs, and Boards, with a ₹50,00,00,000/-. - **Co-Funding with GoI:** Total assistance from GoI + GoG is limited to 75%, with 25% contribution from the institution.\n\nScheme: Scheme of Assistance for Common Environment Infrastructure: Financial Assistance for Common Environmental Infrastructure Facilities\nSection: eligibility\n- Industries association / Any Enterprise (except for captive use) or firm which is registered under Societies Act, Trust Act or under the Companies Act.; or GIDC/Board/ Corporations / Special Purpose Vehicle (SPV) / PSU / Municipal Corporation / Nagarpalika / Urban Development Authority etc.\n\n- The project must comply with Ministry of Environment, Forest and Climate Change (MoEF) & Gujarat Pollution Control Board (GPCB) [regulations](https://gpcb.gujarat.gov.in/ViewFile?fileName=%E2%9C%BF84VtA%E2%9C%A45Y2S5am0gZge7C5DIhraFNMo2Ft55An9ZyFCK3Aq9K4dpmnxwVOuBnFXqslsR%E2%9C%A4PycTDCIhX4VZROM%E2%9C%BFi06yKqnt6WggtDpEP%E2%9C%A49qS%E2%9C%A4OqhmJOM%E2%9C%A4HY9NwlZsBW6x0te88%E2%9C%BF%E2%9C%BF0jyrttC7nRRU7AbQ%E2%99%AC%E2%99%AC). - The project must remain operational for a minimum of 5 years post-completion.\n\nScheme: Scheme of Assistance for Common Environment Infrastructure: Financial Assistance for Common Environmental Infrastructure Facilities\nSection: exclusions\n- The Project availing incentives under this scheme will not be entitled to avail incentives under any other scheme of the State Government for the same component, unless specified otherwise. However, the project will be eligible to avail incentives available under schemes of Government of India or any other institutions.\n - The following investments are not eligible for financial assistance:\n\n 1. Land purchase\n 1. Land development\n 1. Preliminary expenses\n 1. Pre-operative expenses\n 1. Consultancy fees\n\nScheme: Scheme of Assistance for Common Environment Infrastructure: Financial Assistance for Common Environmental Infrastructure Facilities\nSection: beneficiaries\nBusiness Entity; Industries; Government Organisation; Registered Societies",
+      "stage_ranks": {
+        "bm25": 7,
+        "rrf": 14
+      },
+      "verdict": "irrelevant",
+      "score": 0.0,
+      "reason": "Targets industrial environmental infrastructure rather than farmers."
+    },
+    {
+      "scheme_id": "X8a2F5gB0AGc0F0iHzQA",
+      "text": "Scheme: AGR 2 (Farm Mechanization) Scheme Of Farmers Other Than SC/ST\nSection: overview\nThe scheme “AGR 2 (Farm Mechanization) Scheme of Farmers Other Than SC/ST” was started by the Department of Agriculture, Farmers Welfare & Co-operation, Government of Gujarat.\n\nScheme: AGR 2 (Farm Mechanization) Scheme Of Farmers Other Than SC/ST\nSection: benefits\n1. The beneficiary will get financial assistance for the purchase of agricultural equipment/components such as Power Tillers, Rice Transplanter, Self-Propelled Machinery, Tractor/ Power Tiller operated Implements /tools, Electric Motor operated, etc.\n2. Under the scheme, more financial assistance will be given to the Small/Marginal/Women Farmers compared to other farmers.\n\nScheme: AGR 2 (Farm Mechanization) Scheme Of Farmers Other Than SC/ST\nSection: eligibility\n- The beneficiary should be a permanent resident of Gujarat State.\n- Any farmer of Gujarat state other than SC/ST (in 208 talukas where the Submissions on Agricultural Mechanization (SMAM) scheme is not implemented) is eligible under this scheme.\n- The beneficiary farmer must purchase from the authorized manufacturer of the included manufacturer in the panels prepared for the purpose of periodic disclosed prize discovery by the Agriculture office/department.\n\nScheme: AGR 2 (Farm Mechanization) Scheme Of Farmers Other Than SC/ST\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "dense": 8,
+        "rrf": 15
+      },
+      "verdict": "relevant",
+      "score": 0.95,
+      "reason": "Provides financial assistance to farmers for agricultural mechanization equipment."
+    },
+    {
+      "scheme_id": "IqHAF5gBXu-iUKXqbXeC",
+      "text": "Scheme: Incentives to Women Entrepreneurs Scheme, 2008\nSection: overview\n\"Incentives to Women Entrepreneurs Scheme, 2008\" aimed to encourage women entrepreneurship and promote self-employment by providing additional incentives such as interest subsidies and preferential treatment under capital contribution schemes. The scheme benefited women-owned industrial units.\n\nScheme: Incentives to Women Entrepreneurs Scheme, 2008\nSection: benefits\n**Interest Subsidy**\n\n- The interest subsidy was applicable from the interest of the quarter preceding the quarter of the first commercial production date.\n- The benefit under this scheme was for a period of 5 years (20 quarters) from the quarter of applicability.\n- The subsidy was limited to 1% of the total net turnover or 30% of the interest paid by the units, whichever was less, subject to a ceiling of ₹5,00,000/- per annum.\n- In case of the Interest Subsidy Scheme, the prescribed limit of 1% of turnover was increased to 2%, and 30% of interest paid was increased to 35%, subject to an overall ceiling of ₹8,00,000/-.\n\n**Additional Benefits**\n\n**Additional Benefits**\n\n- 5% additional benefit was provided under the Local Employment Subsidy Scheme, over and above what was eligible under the original scheme.\n- Preference was given in Capital Contribution and under Special Capital Contribution Schemes.\n\n_*The Task Force Committee disbursed the amount payable within 6 months from the date of receipt of the application._\n\nScheme: Incentives to Women Entrepreneurs Scheme, 2008\nSection: eligibility\n- Only partnership and proprietary concerns were eligible, provided the ownership was with women to the extent of 100% in case of proprietary concerns and 51% in case of partnership firms.\n- In partnership firms, the balance share of 49% should not be entirely held by the husband, father, brother, or son, and there had to be at least one additional partner other than these relatives.\n- Units that had gone into commercial production or service on or after the date of publication of this scheme were eligible.\n- Women entrepreneurs were given preference under the Capital Contribution and Special Capital Contribution Schemes.\n\nScheme: Incentives to Women Entrepreneurs Scheme, 2008\nSection: beneficiaries\nIndividual; Business Entity",
+      "stage_ranks": {
+        "bm25": 8,
+        "rrf": 16
+      },
+      "verdict": "irrelevant",
+      "score": 0.1,
+      "reason": "focuses on women entrepreneurs, not farmers"
+    },
+    {
+      "scheme_id": "aKG3F5gBXu-iUKXqN3X8",
+      "text": "Scheme: Integrated Scheme on Agriculture Cooperation\nSection: overview\nThe Integrated Scheme on Agriculture Cooperation (ISAC) is a Central Sector Scheme of the Ministry of Agriculture and Farmers Welfare, Government of India. It is being implemented through the National Cooperative Development Corporation (NCDC).\n\nScheme: Integrated Scheme on Agriculture Cooperation\nSection: benefits\n- Grant-in-aid under the ISAC scheme for projects related to weaker sections/women cooperatives and labour cooperatives:\n\n1. Cooperatively least developed states {Arunachal Pradesh, Assam, Bihar, Jharkhand, Jammu & Kashmir, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, and Tripura} : 25%\n1. Cooperatively under-developed states {Andhra Pradesh*, Chhattisgarh, Goa, Himachal Pradesh, Madhya Pradesh, Odisha, Rajasthan, Telangana, Uttar Pradesh, Uttarakhand, West Bengal, Andaman & Nicobar Islands (UT) and Lakshadweep (UT)}: 20%\n1. Cooperatively developed states {Gujarat, Haryana, Karnataka, Kerala, Maharashtra, Punjab, Tamilnadu, Chandigarh (UT), Dadra & Nagar Haveli (UT), Daman & Diu (UT), Puducherry (UT), Delhi } : 15%\n\nScheme: Integrated Scheme on Agriculture Cooperation\nSection: eligibility\n1. Eligible Sectors for NCDC’s assistance.\n\n - Agricultural Marketing, Processing, Storage, Computerization and weaker sections’ Programmes, and input supply, Plantation/ horticultural crops, SC & ST cooperatives, tribal cooperatives, hill area cooperatives, dairy, poultry, livestock, fisheries, handloom coir, jute, cash crops, sericulture, computerization of cooperatives including PACS, DCCB and State Cooperative Banks, Spinning Mills, modernization/expansion of existing mills, rehabilitation of sick Cooperative Spinning Mills, Margin money assistance to cooperative spinning mills.\n\n1. Eligible Organizations for seeking assistance\n\n1. Eligible Organizations for seeking assistance\n\n - Societies should not be less than three years older, having positive balance net worth for last three years and having rich experience in the field for which project is proposed under the scheme. In the case of government sponsored projects for cooperatives, this condition could be relaxed on case to case basis by Managing Director, NCDC \n\n1. Cooperatives Sectors/Organizations must :\n\n1. Cooperatives Sectors/Organizations must :\n\n - Be registered under the Cooperative Societies Act of the respective state.\n - Be undertaking activities related to agriculture and allied sectors, such as marketing, storage, processing of agricultural produce, and supply of agricultural inputs.\n - Be financially viable and have a good track record.\n - Be eligible for financial assistance from the NCDC.\n\nScheme: Integrated Scheme on Agriculture Cooperation\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "dense": 9,
+        "rrf": 17,
+        "cohere": 2
+      },
+      "verdict": "unjudged",
+      "score": null,
+      "reason": ""
+    },
+    {
+      "scheme_id": "usa9F5gB0AGc0F0i3zWG",
+      "text": "Scheme: Scheme for assistance for Start Ups/ Innovation: Interest Subsidy\nSection: overview\nThe \"Scheme for Assistance for Start Ups/ Innovation\" under the Gujarat Industrial Policy, aims to drive economic growth by generating jobs, fostering competition, and introducing next-gen solutions.\n\nScheme: Scheme for assistance for Start Ups/ Innovation: Interest Subsidy\nSection: benefits\n- **Financial Support:** Interest subsidy of 1%, maximum up to 9% on term loans under the provisions of scheme for assistance to MSMEs.\n\nScheme: Scheme for assistance for Start Ups/ Innovation: Interest Subsidy\nSection: eligibility\n- Any individual or group of individuals with an innovative idea or concept, recommended by an approved Nodal Institution, is eligible.\n - The scheme is open to startups in any sector or branch of science, technology, engineering, agriculture, healthcare, etc., making it sector-agnostic.\n\n> **Note:** Startups availing benefits under the Student Startup and Innovation Policy (SSIP) are also eligible.\n\nScheme: Scheme for assistance for Start Ups/ Innovation: Interest Subsidy\nSection: exclusions\n- Entities formed by splitting or restructuring an existing business are not considered startups under this scheme.\n - Startups availing benefits under other startup schemes of the Government of Gujarat are ineligible.\n\nScheme: Scheme for assistance for Start Ups/ Innovation: Interest Subsidy\nSection: beneficiaries\nBusiness Entity; Industries",
+      "stage_ranks": {
+        "bm25": 9,
+        "rrf": 18
+      },
+      "verdict": "irrelevant",
+      "score": 0.1,
+      "reason": "startup interest subsidy, unrelated to farming"
+    },
+    {
+      "scheme_id": "p8czlZ0B0AGc0F0ikwx0",
+      "text": "Scheme: Primary Cooperative Agriculture and Rural Development Bank: For Power Tiller\nSection: overview\nThe scheme offers loans to farmers covering up to 90% of the cost of a power tiller, with an interest rate between 11% and 12.25%.\n\nScheme: Primary Cooperative Agriculture and Rural Development Bank: For Power Tiller\nSection: benefits\n- **Access to Loan:** Up to 90% of the cost of a power tiller. - **Interest Rate:** 11% to 12.25% (subject to change).\n\nScheme: Primary Cooperative Agriculture and Rural Development Bank: For Power Tiller\nSection: eligibility\n- The beneficiary should be a resident of Tamil Nadu.\n - The beneficiary should be a farmer.\n - The beneficiary should be engaged in agricultural activities.\n - The beneficiary should be interested in availing of a loan for purchasing power tiller.\n - The beneficiary should have the intention to use the loan specifically for purchasing power tiller.\n\nScheme: Primary Cooperative Agriculture and Rural Development Bank: For Power Tiller\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "dense": 10,
+        "rrf": 19
+      },
+      "verdict": "unjudged",
+      "score": null,
+      "reason": ""
+    },
+    {
+      "scheme_id": "wca9F5gB0AGc0F0i4DVd",
+      "text": "Scheme: Scheme for assistance for Start Ups/ Innovation: Seed Support\nSection: overview\nThe \"Scheme for Assistance for Start Ups/ Innovation\" under the Gujarat Industrial Policy, aims to drive economic growth by generating jobs, fostering competition, and introducing next-gen solutions.\n\nScheme: Scheme for assistance for Start Ups/ Innovation: Seed Support\nSection: benefits\n> **Total Assistance: ₹30,00,000/-.**\n\n - **Prototype Development:** Covers costs for raw materials, consumables, hardware, software, professional services, equipment, or tools. - **Market Research:** Financial aid for conducting market research to ensure product viability. - **Testing & Trials:** Assistance for product testing and trial phases. - **Marketing/Publicity Assistance:** Support for attending national/international events (fees/charges only; travel and accommodation expenses excluded).\n\nScheme: Scheme for assistance for Start Ups/ Innovation: Seed Support\nSection: eligibility\n- Any individual or group of individuals with an innovative idea or concept, recommended by an approved Nodal Institution, is eligible.\n - The scheme is open to startups in any sector or branch of science, technology, engineering, agriculture, healthcare, etc., making it sector-agnostic.\n\n> **Note:** Startups availing benefits under the Student Startup and Innovation Policy (SSIP) are also eligible.\n\nScheme: Scheme for assistance for Start Ups/ Innovation: Seed Support\nSection: exclusions\n- Entities formed by splitting or restructuring an existing business are not considered startups under this scheme.\n - Startups availing benefits under other startup schemes of the Government of Gujarat are ineligible.\n\nScheme: Scheme for assistance for Start Ups/ Innovation: Seed Support\nSection: beneficiaries\nBusiness Entity; Industries",
+      "stage_ranks": {
+        "bm25": 10,
+        "rrf": 20
+      },
+      "verdict": "irrelevant",
+      "score": 0.1,
+      "reason": "startup seed support, not farmer specific"
+    },
+    {
+      "scheme_id": "jcboF5gB0AGc0F0i5Den",
+      "text": "Scheme: Primary Cooperative Agriculture and Rural Development Bank: For Horticulture\nSection: overview\nThe scheme offers a horticulture loan to support farmers with funds ranging from ₹25,000/- to ₹2,00,000/- per 0.4 hectare at an interest rate of 11%-12.75%.\n\nScheme: Primary Cooperative Agriculture and Rural Development Bank: For Horticulture\nSection: benefits\n- **Access to Loan:** From Rs.25,000/- to 2,00,000/- per 0.4 hectare. - **Interest Rate:** From 11% to 12.5%, (subject to change).\n\nScheme: Primary Cooperative Agriculture and Rural Development Bank: For Horticulture\nSection: eligibility\n- The beneficiary should be a resident of Tamil Nadu.\n - The beneficiary should be a farmer.\n - The beneficiary should be engaged in horticultural activities.\n - The beneficiary should be interested in availing loan for horticultural activities.\n - The beneficiary should have the intention to use the loan specifically for horticultural activities.\n\nScheme: Primary Cooperative Agriculture and Rural Development Bank: For Horticulture\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "dense": 11,
+        "rrf": 21
+      },
+      "verdict": "relevant",
+      "score": 0.95,
+      "reason": "Offers horticulture loans specifically to support farmers."
+    },
+    {
+      "scheme_id": "pRe9F5gB5uF80_MG4JH5",
+      "text": "Scheme: Scheme for assistance for Start Ups/ Innovation: Sustenance Allowance\nSection: overview\nThe \"Scheme for Assistance for Start Ups/ Innovation\" under the Gujarat Industrial Policy, aims to drive economic growth by generating jobs, fostering competition, and introducing next-gen solutions.\n\nScheme: Scheme for assistance for Start Ups/ Innovation: Sustenance Allowance\nSection: benefits\n- **Financial Assistance:** ₹20,000/- per month for one year based on eligibility. - **Encouragement for Women Entrepreneurs:** ₹25,000/- per month for startups with a woman co-founder.\n\nScheme: Scheme for assistance for Start Ups/ Innovation: Sustenance Allowance\nSection: eligibility\n- Any individual or group of individuals with an innovative idea or concept, recommended by an approved Nodal Institution, is eligible.\n - The scheme is open to startups in any sector or branch of science, technology, engineering, agriculture, healthcare, etc., making it sector-agnostic.\n\nNote: Startups availing benefits under the Student Startup and Innovation Policy (SSIP) are also eligible.\n\nScheme: Scheme for assistance for Start Ups/ Innovation: Sustenance Allowance\nSection: exclusions\n- Entities formed by splitting or restructuring an existing business are not considered startups under this scheme.\n - Startups availing benefits under other startup schemes of the Government of Gujarat are ineligible.\n\nScheme: Scheme for assistance for Start Ups/ Innovation: Sustenance Allowance\nSection: beneficiaries\nBusiness Entity; Industries",
+      "stage_ranks": {
+        "bm25": 11,
+        "rrf": 22
+      },
+      "verdict": "irrelevant",
+      "score": 0.1,
+      "reason": "Targeted at industrial startups and innovators, not directly for individual farmers."
+    },
+    {
+      "scheme_id": "lxe5F5gB5uF80_MGTpCW",
+      "text": "Scheme: Farmers Training Institute Scheme\nSection: overview\nThe objective of the scheme is to provide training to farmers at the village level on updated and innovative agriculture technology. The Training Institute facilitates exposure visits for farmers to agriculturally advanced states.\n\nScheme: Farmers Training Institute Scheme\nSection: benefits\n> **Pattern of Assistance:**\n\n- Farmers are imparted specialised training at the center including in the farmers' field.\n- Exposure programmes and field tours are also conducted for farmers' groups.\n\n> **Type of Assistance and Entitlement (If any):**\n\n - Assist in Training and capacity building and sponsoring Progressive/Award winning farmers for Exposure trips within/outside the State.\n\nScheme: Farmers Training Institute Scheme\nSection: eligibility\n1. The applicant should be a resident of Meghalaya.\n1. The applicant should be a bonafide farmer engaged in agriculture.\n\nScheme: Farmers Training Institute Scheme\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "dense": 12,
+        "rrf": 23
+      },
+      "verdict": "relevant",
+      "score": 0.95,
+      "reason": "Provides training and exposure visits on agricultural technology directly to farmers."
+    },
+    {
+      "scheme_id": "7KG_F5gBXu-iUKXqhnbx",
+      "text": "Scheme: Scheme of Assistance for Common Environment Infrastructure: Scheme of Assistance for Strengthening the Regulation and Environmental Compliance\nSection: overview\nThe scheme \"Scheme of Assistance for Common Environment Infrastructure\" under the Gujarat Industrial Policy aims to provide incentives for environmental compliance to ensure long-term economic and ecological balance.\n\nScheme: Scheme of Assistance for Common Environment Infrastructure: Scheme of Assistance for Strengthening the Regulation and Environmental Compliance\nSection: benefits\n- **Quantum of Assistance:** Need based support, maximum ₹50,00,000/-, will be provided as may be decided by the State Level Empowered Committee.\n\nScheme: Scheme of Assistance for Common Environment Infrastructure: Scheme of Assistance for Strengthening the Regulation and Environmental Compliance\nSection: eligibility\n- Industries association / Any Enterprise (except for captive use) or firm which is registered under Societies Act, Trust Act or under the Companies Act.; or GIDC/Board/ Corporations / Special Purpose Vehicle (SPV) / PSU / Municipal Corporation / Nagarpalika / Urban Development Authority etc.\n\n- The project must comply with Ministry of Environment, Forest and Climate Change (MoEF) & Gujarat Pollution Control Board (GPCB) [regulations](https://gpcb.gujarat.gov.in/ViewFile?fileName=%E2%9C%BF84VtA%E2%9C%A45Y2S5am0gZge7C5DIhraFNMo2Ft55An9ZyFCK3Aq9K4dpmnxwVOuBnFXqslsR%E2%9C%A4PycTDCIhX4VZROM%E2%9C%BFi06yKqnt6WggtDpEP%E2%9C%A49qS%E2%9C%A4OqhmJOM%E2%9C%A4HY9NwlZsBW6x0te88%E2%9C%BF%E2%9C%BF0jyrttC7nRRU7AbQ%E2%99%AC%E2%99%AC). - The project must remain operational for a minimum of 5 years post-completion.\n\nScheme: Scheme of Assistance for Common Environment Infrastructure: Scheme of Assistance for Strengthening the Regulation and Environmental Compliance\nSection: exclusions\n- The Project availing incentives under this scheme will not be entitled to avail incentives under any other scheme of the State Government for the same component, unless specified otherwise. However, the project will be eligible to avail incentives available under schemes of Government of India or any other institutions.\n\nScheme: Scheme of Assistance for Common Environment Infrastructure: Scheme of Assistance for Strengthening the Regulation and Environmental Compliance\nSection: beneficiaries\nBusiness Entity; Industries; Government Organisation",
+      "stage_ranks": {
+        "bm25": 12,
+        "rrf": 24
+      },
+      "verdict": "irrelevant",
+      "score": 0.05,
+      "reason": "Supports industrial environmental infrastructure compliance, not farmers."
+    },
+    {
+      "scheme_id": "rRgplZ0B5uF80_MGRGaV",
+      "text": "Scheme: Primary Cooperative Agriculture and Rural Development Bank: For Minor Irrigation\nSection: overview\nThe scheme offers loans to farmers for minor irrigation projects, aiming to enhance water access for agriculture. Loan amounts range from ₹65,000/- to ₹1,20,000/- at an interest rate of 11% to 11.75%.\n\nScheme: Primary Cooperative Agriculture and Rural Development Bank: For Minor Irrigation\nSection: benefits\n- **Access to Loan:** ₹65,000/- to ₹1,20,000/-. - **Interest Rate:** 11% to 11.75% (subject to change).\n\nScheme: Primary Cooperative Agriculture and Rural Development Bank: For Minor Irrigation\nSection: eligibility\n- The beneficiary should be a resident of Tamil Nadu.\n - The beneficiary should be a farmer.\n - The beneficiary should be engaged in agriculture \n - The beneficiary should be in need of support for minor irrigation.\n - The beneficiary should be interested in availing of the loan for Minor Irrigation.\n - The beneficiary should have the intention to use the loan specifically for Minor Irrigation.\n\nScheme: Primary Cooperative Agriculture and Rural Development Bank: For Minor Irrigation\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "dense": 13,
+        "rrf": 25
+      },
+      "verdict": "relevant",
+      "score": 0.95,
+      "reason": "Provides loans directly to farmers for minor irrigation projects."
+    },
+    {
+      "scheme_id": "MBgO7ZoB5uF80_MGelfQ",
+      "text": "Scheme:  Operation/implementation of Vidhik Seva Rath\nSection: overview\nThe scheme aims to spread legal awareness and provide information about welfare schemes to people in both urban and remote rural areas, ensuring that citizens are informed about their rights and available government benefits.\n\nScheme:  Operation/implementation of Vidhik Seva Rath\nSection: benefits\n- Under the public awareness programme, the mobile van of the State Legal Services Authority, \"Vidhik Seva Rath\", is sent to visit every urban area and remote rural areas of two to three districts every month and various welfare schemes run by the central and state government are shown through films. \n - The book \"Saral Kanooni Gyan Mala\" published on various subjects is distributed free of cost.\n\nScheme:  Operation/implementation of Vidhik Seva Rath\nSection: eligibility\n1. The applicant must be a resident of Uttarakhand.\n 1. All residents of the areas visited by the van can benefit from these programs. The team members assigned to the tour inform the public about the schemes using a projector installed in the \"Vidhik Seva Rath\".\n\nScheme:  Operation/implementation of Vidhik Seva Rath\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "bm25": 13,
+        "rrf": 26
+      },
+      "verdict": "irrelevant",
+      "score": 0.1,
+      "reason": "General legal awareness mobile van scheme not specifically aimed at farmers."
+    },
+    {
+      "scheme_id": "9ce5Fp4B0AGc0F0iOQ9l",
+      "text": "Scheme: National Agriculture Market\nSection: overview\nLaunched on 14th April 2016, e-NAM is a pan-India electronic trading platform that links existing mandis to create a unified online market for agricultural commodities, promoting “One Nation One Market” and enabling transparent, efficient, and nationwide agri-trade.\n\nScheme: National Agriculture Market\nSection: benefits\n> **For Farmers:**\n\n- Access to Pan-India Markets through a digital trading platform.\n- Real-time Price Discovery based on demand and supply.\n- Transparency in auction and payment processes.\n- Better Prices through wider buyer participation.\n- Online Payment directly to farmers' bank accounts.\n- Free Quality Testing (Assaying) of produce in markets.\n- Reduced Information Asymmetry—farmers can see prices and make informed decisions.\n\n> **For Markets (APMCs/RMCs):**\n\n> **For Markets (APMCs/RMCs):**\n\n- One-time Grant of up to ₹30 lakh per market for hardware, internet, assaying labs, etc.\n- Free e-NAM Software is provided with customization for each state.\n- Support Staff (1 person per market) provided for 1 year at no cost.\n- Provision to use Cold Storages & Warehouses as market sub-yards.\n- Infrastructure Support for setting up:\n\n 1. e-auction halls.\n 1. assaying labs.\n 1. electronic weighbridges.\n 1. training facilities.\n\n> **For State Governments / UTs:**\n\n- Eligibility for Central Funding upon adopting key APMC Act reforms:\n\n 1. Single trading license for the state.\n 1. Single-point market fee.\n 1. Legal provision for e-trading.\n\n- Support for Soil Testing Labs (STLs) under related schemes (NMSA/RKVY).\n- Training, Dispute Resolution Mechanism, and linking more markets to e-NAM.\n\nScheme: National Agriculture Market\nSection: eligibility\n1. The applicant State/UT must allow a single trading license valid across the State, issued through suitable legislation or executive orders.\n\n - The process should be liberal, without barriers like high deposits, quantity restrictions, or mandatory purchase centers.\n\n1. The applicant State/UT must ensure single-point levy of market fee, applicable only at the first wholesale transaction.\n\n - No additional charges should be levied on subsequent wholesale transactions of the same produce.\n\n1. The applicant State/UT must provide legal and infrastructural support for e-auction/e-trading, through relevant amendments or executive provisions.\n\n- The applicant must submit proposals in the prescribed format and fulfill all three core reforms above to be eligible for the one-time grant for infrastructure setup (hardware, internet, assaying equipment, etc.).\n\n1. The applicant must commit to:\n\n - Trading 100% of selected commodities through e-NAM in the proposed markets.\n - Providing or linking markets to Soil Testing Laboratories (STLs).\n - Covering extra implementation costs beyond the sanctioned amount.\n - Bearing costs of software maintenance after 5 years.\n - Registering the implementing agency on the PFMS portal and submitting necessary bank details to the Department.\n\n1. The applicant State/UT, if lacking an APMC Act or not enforcing it, must:\n\n1. The applicant State/UT, if lacking an APMC Act or not enforcing it, must:\n\n - Identify an appropriate institution/organization.\n - Frame enforceable guidelines to enable e-trading, including trader registration, transaction norms, and infrastructure provisioning.\n\n1. The applicant private market, if applying, must:\n\n - Be recommended by the concerned authority.\n - Provide all necessary infrastru",
+      "stage_ranks": {
+        "dense": 14,
+        "rrf": 27,
+        "cohere": 3
+      },
+      "verdict": "relevant",
+      "score": 0.95,
+      "reason": "Provides online trading platform, transparent pricing, and direct market access for farmers."
+    },
+    {
+      "scheme_id": "mxf9F5gB5uF80_MGYJOs",
+      "text": "Scheme: Farmer Suicide Ex-Gratia\nSection: overview\n\"Farmer Suicide Ex-Gratia\" is a Financial Assistance Scheme by the Agriculture & Cooperation Dept. of the Govt. of Andhra Pradesh. The scheme provides financial assistance of ₹ 7,00,000 to the family members of the deceased farmers/tenant farmers, who commit suicide due to agrarian reasons.\n\nScheme: Farmer Suicide Ex-Gratia\nSection: benefits\n\n{'type': 'ol_list', 'children': [{'type': 'list_item', 'children': [{'text': 'Financial Assistance of ₹ 7,00,000', 'bold': True}, {'text': ' to the family members of the deceased farmers/tenant farmers, who commit suicide due to agrarian reasons.'}]}, {'type': 'list_item', 'children': [{'text': 'A '}, {'text': 'Point of Contact', 'bold': True}, {'text': ' at the Collector’s office of the rank of Superintendent shall be designated as in charge of farmer suicide cases and assistance to victim families.'}]}, {'type': 'list_item', 'children': [{'text': 'In the process of '}, {'text': 'Rehabilitation', 'bold': True}, {'text': ', benefits of other Government schemes should be provided on a priority basis to the family members of the deceased farmer as per the eligibility.'}]}, {'type':\n\na priority basis to the family members of the deceased farmer as per the eligibility.'}]}, {'type': 'list_item', 'children': [{'text': 'A '}, {'text': 'Special Grievance Day', 'bold': True}, {'text': ' shall be held at the Collectorate once a month for farmers to cover all issues of farmers including farmer suicide, distress, Government schemes, and land issues.'}]}]}\n\nScheme: Farmer Suicide Ex-Gratia\nSection: eligibility\n1. The deceased farmer should have been a resident/domicile of the state of Andhra Pradesh.\n1. The cause of death of the farmer should be suicide.\n1. The reason for the suicide should be an agrarian reason, such as Failure of Bore wells, Raising of Commercial crops with a high cost of cultivation, Non-Remunerative Prices, Oral tenancy, and ineligibility to avail of Bank Loans, Private lending with higher interest rates, Adverse seasonal conditions, Heavy expenditure incurred towards Children education, ill health, and marriages.\n1. The term “farmer” shall include every person who derives substantial livelihood from farming, not limited to those with title to land, but including tenant farmers and women farmers.\n\n1. The beneficiary of the financial assistance should be a family member of the deceased farmer.\n\nScheme: Farmer Suicide Ex-Gratia\nSection: beneficiaries\nIndividual; Family",
+      "stage_ranks": {
+        "bm25": 14,
+        "rrf": 28
+      },
+      "verdict": "partially_relevant",
+      "score": 0.6,
+      "reason": "Provides financial ex-gratia to families of deceased farmers facing agrarian distress."
+    },
+    {
+      "scheme_id": "oaGtTpoBXu-iUKXq3Hr0",
+      "text": "Scheme: Animal Husbandry: Assistance to Small and Marginal Farmers\nSection: overview\nThe scheme aims to provide financial assistance to small and marginal farmers for the replacement of productive livestock lost due to notified natural disasters such as floods, landslides, or other calamities.\n\nScheme: Animal Husbandry: Assistance to Small and Marginal Farmers\nSection: benefits\n**Replacement of Milk, Agricultural, and Transport Animals:**\n\n- **Milch animals:** ₹37,500/- per animal (Buffalo/Cow/Camel/Yak/Mithun) will be payable.- ₹4,000/- per animal (Sheep/Goat/Pig) will be payable.\n\n**Agricultural and Haulage Animals:** \n\n- ₹32,000/- per animal (Camel/Horse/Bullock) will be payable.\n\n- ₹20,000/- per animal (Calf/Donkey/Pony/Mule) will be payable.\n\n**Poultry Farming:**\n\n - ₹100/- per bird, up to a limit of ₹10,000/- per beneficiary family. The death of birds must be due to a notified natural disaster to be eligible for assistance.\n\nScheme: Animal Husbandry: Assistance to Small and Marginal Farmers\nSection: eligibility\n1. The applicant must be a Small or Marginal Farmer from Uttarakhand who has lost their milk, agricultural, or haulage animals due to a notified natural disaster.\n\nScheme: Animal Husbandry: Assistance to Small and Marginal Farmers\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "dense": 15,
+        "rrf": 29
+      },
+      "verdict": "relevant",
+      "score": 0.95,
+      "reason": "Provides financial assistance to small and marginal farmers for lost livestock."
+    },
+    {
+      "scheme_id": "sBe9F5gB5uF80_MG4pGs",
+      "text": "Scheme: Scheme for assistance for Start Ups/ Innovation: Assistance to Enroll and Participate for Acceleration Program\nSection: overview\nThe \"Scheme for Assistance for Start Ups/ Innovation\" under the Gujarat Industrial Policy, aims to drive economic growth by generating jobs, fostering competition, and introducing next-gen solutions.\n\nScheme: Scheme for assistance for Start Ups/ Innovation: Assistance to Enroll and Participate for Acceleration Program\nSection: benefits\n- **Financial Support:** Startups can receive financial assistance of up to ₹3,00,000/- to participate in acceleration programs.\n\nScheme: Scheme for assistance for Start Ups/ Innovation: Assistance to Enroll and Participate for Acceleration Program\nSection: eligibility\n- Any individual or group of individuals with an innovative idea or concept, recommended by an approved Nodal Institution, is eligible.\n - The scheme is open to startups in any sector or branch of science, technology, engineering, agriculture, healthcare, etc., making it sector-agnostic.\n\n> **Note:** Startups availing benefits under the Student Startup and Innovation Policy (SSIP) are also eligible.\n\nScheme: Scheme for assistance for Start Ups/ Innovation: Assistance to Enroll and Participate for Acceleration Program\nSection: exclusions\n- Entities formed by splitting or restructuring an existing business are not considered startups under this scheme.\n - Startups availing benefits under other startup schemes of the Government of Gujarat are ineligible.\n\nScheme: Scheme for assistance for Start Ups/ Innovation: Assistance to Enroll and Participate for Acceleration Program\nSection: beneficiaries\nBusiness Entity; Industries",
+      "stage_ranks": {
+        "bm25": 15,
+        "rrf": 30
+      },
+      "verdict": "irrelevant",
+      "score": 0.15,
+      "reason": "A general startup acceleration program not specifically meant for farmers."
+    },
+    {
+      "scheme_id": "38fD_5wB0AGc0F0i5ghV",
+      "text": "Scheme: Rainfed Area Development\nSection: overview\nRainfed Area Development (RAD) scheme was launched in 2014-15 to mainstream development of rainfed areas in a sustainable manner. It adopts an area-based approach, focuses on Integrated Farming System (IFS) for enhancing productivity and minimizing risks associated with climatic variability.\n\nScheme: Rainfed Area Development\nSection: benefits\nThe scheme targets to provide following benefits: \n1) Enhanced agriculture productivity and overall remuneration in the rainfed areas.\n2) Risk mitigation against climatic stress such as droughts and heat stress and crop failure.\n3) Conservation of natural resources by soil fertility conservation, rainwater management, increased, etc.\n4) Capacity building of farmers in the domain of improved agronomic practices & climate change mitigation.\n5) Extensive support for Extensive Livestock Systems (health care, breeding, drinking water, fodder in commons, etc.)\n\n6) Integrated value chain support systems to realize growth potential in pulses, millets and oilseeds-based farming production systems including infrastructure and processing facilities – focus on local markets.\n7) Monetary support of ₹30,000/- per family for adoption of integrated farming systems.\n\nScheme: Rainfed Area Development\nSection: eligibility\nAll farmers are eligible under the scheme.\n\nScheme: Rainfed Area Development\nSection: beneficiaries\nFamily",
+      "stage_ranks": {
+        "dense": 16,
+        "rrf": 31
+      },
+      "verdict": "relevant",
+      "score": 0.95,
+      "reason": "Provides financial and technical support to farmers for integrated farming systems."
+    },
+    {
+      "scheme_id": "Z8a2F5gB0AGc0F0iHzT9",
+      "text": "Scheme: Coaching Schemes For Sc/st/obc (non-creamy Layer) & Minority Students For Universities\nSection: overview\nCoaching schemes for students belonging to SC (Scheduled Caste), ST (Scheduled Tribe), OBC (Other Backward Classes) (non-creamy layer), and minority communities are implemented to provide them with equal opportunities and support in pursuing higher education.\n\nScheme: Coaching Schemes For Sc/st/obc (non-creamy Layer) & Minority Students For Universities\nSection: benefits\nThe institutions can apply for one or more components of the scheme according to the number of enrolment of Scheduled Castes, Scheduled Tribes, OBC (Non-Creamy Layer), and Minorities Communities Students. If, the number of students in a particular class is more, additional section(s) may be included. Financial assistance is available for the following items: \n\nNon-recurring items: A “one-time” grant up to Rs. 5.0 lakhs for each scheme during the XII Plan period for the following items: \n1. Books and Journals \n2. Audio-visual and teaching/ learning aid material \n3. Computers with Printer \n4. Photocopier \n5. Generator or Inverter\n\nRecurring Items: Rs.7.00 lakhs for universities for each scheme per annum for expenditure on the following items: \n1. Honorarium to the Coordinator of the schemes @Rs. 2000/- per month \n2. Remuneration to teachers and scholars* \n3. Part-time staff with computer knowledge (on a contract basis) @ 6,000/- p.m. \n4. Part-time Peon/Attendant.@ Rs.1000/- p.m \n5. Contingency - Rs 50,000/- per annum\n\nRemuneration at the rate of Rs. 300/- per hour per subject to the teachers and Rs.200 /- per hour to postgraduate students/ Research Scholars could be paid for theory classes and Rs.150/-per hour respectively for practicals. Generally, a faculty member should not teach for more than 2 hours a day. However, in exceptional cases where an eminent educationist is invited for a Special lecture, the remuneration @ Rs.500/- per hour and admissible T.A. could be paid with the approval of the Head of the Institution. The payment of remuneration to the participating teachers, PG students, and research scholars may be paid regularly every month without waiting for the pending grant from the UGC.\n\nThe final amount of grant to be allocated would depend upon the number of schemes, the number of students enrolled for the schemes in the proposal, and the decision of the Committee appointed for serving the applicants for these schemes.\n\nScheme: Coaching Schemes For Sc/st/obc (non-creamy Layer) & Minority Students For Universities\nSection: eligibility\n- Financial assistance under the scheme is available to such universities and colleges which come within the purview of Section 2(f) and are fit to receive central assistance under Section 12(B) of the UGC Act, 1956.\n- Institutions having a sufficient number of Scheduled Castes, Scheduled Tribes, and Minority Communities students will be considered for financial assistance. \n- General candidates holding BPL Cards (Below Poverty Line) issued by the Central Government /State Government may also be allowed for such coaching classes.\n\n- The percentage of OBC (non-creamy layer) and poor general candidates may be increased up to 40% if a sufficient number of Scheduled Castes, Scheduled Tribes, and Minority Communities students are not available.\n\nScheme: Coaching Schemes For Sc/st/obc (non-creamy Layer) & Minority Students For Universities\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "bm25": 16,
+        "rrf": 32
+      },
+      "verdict": "irrelevant",
+      "score": 0.0,
+      "reason": "Scheme supports university coaching for students, not agriculture or farmers."
+    },
+    {
+      "scheme_id": "6ca5F5gB0AGc0F0iSjSm",
+      "text": "Scheme: Nanaji Deshmukh Krishi Sanjivani Prakalp\nSection: overview\nThe project aims to enhance climate-resilience and profitability of smallholder farming systems in 15 project districts of Maharashtra through promotion of climate resilient technology and commodity value chain across approximately 5,000 drought-prone and/or sodicity/salinity affected villages.\n\nScheme: Nanaji Deshmukh Krishi Sanjivani Prakalp\nSection: benefits\n1) Back ended financial subsidies for Farmers to adopt climate resilient agricultural initiatives in their farms\n2) Financial assistance available for protected cultivation techniques such as Poly House, Poly Tunnels, etc.\n3) Subsidy also available for on farm water conservation activities such as Drip, Sprinklers, Farm Pond, Farm Pond linings, etc.\n4) Climate Resilient seed production also covered\n5) Special assistance for Farmer Producing Organizations/companies and Self Help Groups\n6) Disbursement through Aadhaar enabled payment system\n7) Privilege given to women, person with disabilities and landless labourers\n\nScheme: Nanaji Deshmukh Krishi Sanjivani Prakalp\nSection: eligibility\n1) Farmers producer companies under the project in the district, registered farmer groups/self-help groups in the project village.\n2) In the project, FPC’s registered with a minimum of 100 members from the district will be eligible to avail benefits under the agribusiness components.\n\n3) For the project, any eligible group of interested/qualified farmers/women/landless individuals registered with any govt. department (e.g., ATMA, MAVIM, MSRLM etc.) selected in the village can apply for the Prime Minister's Farmer Scheme, based on the family's eligibility criteria (husband, wife, and dependent children over 18 years of age). The explanation of the family's composition from different families within the group, with a minimum of 11 members in each family, is necessary. The benefits of the agribusiness components should not be directed solely towards one family; attention should be paid to this aspect.\n\n4) The financial condition of applicant farmers' producer companies/registered farmers/self help groups is proposed to be capable enough to establish and operate agricultural input service centers/industries.\n5) The project mandates that loans sanctioned to farmers' producer companies/registered banks/financial institutions for projects exceeding Rs. 20.00 lakhs must be approved. The approved amount of the existing loan should be at least 1.25 times the minimum grant aid.\n\n6) The proposal of Rs. 20.00 lakhs will be funded through self-financing. In such proposals, assurance should be given that the required funds are available in the registered bank account of the group/company or will be raised from the members (include this decision in the company/group resolution). While providing financial assistance under the project, the expenditure incurred for the project from the bank account of the group/company will be considered eligible for reimbursement.\n7) If there's a loan involved, it's essential for the farmers' producer company and registered farmers/self help groups to enter into a tripartite agreement with the registered bank/financial institution and the relevant project management authority.\n\nScheme: Nanaji Deshmukh Krishi Sanjivani Prakalp\nSection: exclusions\n1. Farmers with land holding more than 5.00 ha\n\nScheme: Nanaji Deshmukh Krishi Sanjivani Prakalp\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "dense": 17,
+        "rrf": 33,
+        "cohere": 5
+      },
+      "verdict": "relevant",
+      "score": 0.95,
+      "reason": "Offers agricultural subsidies and climate-resilient farming support to farmers."
+    },
+    {
+      "scheme_id": "Hsa1F5gB0AGc0F0iKDRC",
+      "text": "Scheme: Kanya Sumangala Yojana\nSection: overview\nVarious schemes are run by the government for the purpose of providing social security to women, Kanya Sumangala Yojana is one such scheme.\n\nScheme: Kanya Sumangala Yojana\nSection: benefits\nKanya Sumangala Yojana will be applicable in six categories. \nThe categories of beneficiary classification and distribution of funds for them are determined as follows:-\nFirst PhaseAt the birth of a girl child.Rs. 2,000/- lump sumSecond PhaseAfter complete vaccination of the girl child up to one year. Rs. 1,000/- lump sumThird PhaseAfter the admission of girl child in first classRs. 2,000/- lump sumFourth PhaseAfter the admission of girl child in class VIRs. 2,000/- lump sumFifth PhaseAfter the admission of girl child in class IXRs. 3,000/- lump sumSixth PhaseSuch girls who have passed class 12th and have taken admission in graduation or diploma courses of 02 years or more duration.Rs. 5,000/- lump sum\n\nScheme: Kanya Sumangala Yojana\nSection: eligibility\n1. The beneficiary's family should be a resident of Uttar Pradesh and have a permanent residence certificate, in which Ration Card / Aadhaar Card / Voter ID Card / Electricity / Telephone bill will be valid.\n 1. The maximum annual family income of the beneficiary should be ₹3,00,000/-.\n 1. Maximum of two girls in a family will be able to get the benefit of the scheme.\n 1. There should be a maximum of two children in the family.\n 1. If a woman has twins from the second delivery, the benefit will also be admissible to the girl child as the third child. If a woman has a girl child from the first delivery and only two twin girls from the second delivery, then only in such a situation the benefit will be admissible to all three girls.\n\nScheme: Kanya Sumangala Yojana\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "bm25": 17,
+        "rrf": 34
+      },
+      "verdict": "irrelevant",
+      "score": 0.0,
+      "reason": "Scheme provides financial assistance for girl children, unrelated to farming."
+    },
+    {
+      "scheme_id": "gBe9F5gB5uF80_MGZpFU",
+      "text": "Scheme: Training to Farmers\nSection: overview\nThe scheme “Training to Farmers” provides training to maize farmers across various districts, aiming to enhance farming practices and increase productivity.\n\nScheme: Training to Farmers\nSection: benefits\n- Financial Assistance: ₹300/- for attending a two-day training session.\n- Training Program: Training covers modern maize cultivation techniques, improving crop yield and reducing input costs.\n\nScheme: Training to Farmers\nSection: eligibility\n- The beneficiary should be a Farmer.\n- The beneficiary should be a resident of any of the following districts of Tamil Nadu: Coimbatore, Dindigul, Erode, Dharmapuri, Krishnagiri, Namakkal, Perambalur, Virudhunagar, Theni, Villupuram, Vellore, Salem, Pudukkottai, Madurai, Sivagangai, Trichy, Tirunelveli, and Thoothukudi.\n- The beneficiary should grow maize.\n\nScheme: Training to Farmers\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "dense": 18,
+        "rrf": 35
+      },
+      "verdict": "relevant",
+      "score": 0.95,
+      "reason": "Directly provides training and financial stipends to maize farmers."
+    },
+    {
+      "scheme_id": "86IZ_psBXu-iUKXqRkXe",
+      "text": "Scheme: Pradhan Mantri Uchchatar Shiksha Protsahan (PM-USP) Central Sector Scheme of Scholarship for College and University students\nSection: overview\nA scholarship scheme by the Dept. of Higher Education to provide financial assistance to meritorious students from poor families to meet a part of their day-to-day expenses while pursuing higher studies. The scholarships are awarded on the basis of results of Higher Secondary / Class 12th Board Exam\n\nScheme: Pradhan Mantri Uchchatar Shiksha Protsahan (PM-USP) Central Sector Scheme of Scholarship for College and University students\nSection: benefits\n**Rate of Scholarship**\n\n- ₹12,000/-per annum at the Graduation level for the first three years of College and University courses.\n- ₹20,000 per annum at the Post-graduation level.\n- ₹20,000/-per annum in the 4th and 5th year to the Students pursuing professional courses, in case, where the duration of the course is five (5) years/Integrated course.\n- Students pursuing technical courses such as B.Tech, B.Engg. will get scholarship up to graduation level only i.e. ₹12,000 p.a. for 1st, 2nd, and 3rd year and ₹20,000 in the 4th year.\n\n﻿\n**Mode of Disbursal**\nThe scholarship will be disbursed directly into the Aadhar seeded bank accounts of the beneficiaries through Direct Benefit Transfer (DBT).\n\nScheme: Pradhan Mantri Uchchatar Shiksha Protsahan (PM-USP) Central Sector Scheme of Scholarship for College and University students\nSection: eligibility\n- The applicant must be above the 80th percentile of successful candidates in the relevant stream from the respective Board of Examination in Class 12th of 10+2 pattern or equivalent.\n - The applicant must be pursuing regular degree courses.\n - The applicant must be pursuing courses at colleges/ institutions recognized by the All India Council for Technical Education and the respective Regulatory Bodies concerned.\n - The gross parental/ family income of the applicant should not exceed ₹4,50,000/- per annum.\n\n- The gross parental/ family income of the applicant should not exceed ₹4,50,000/- per annum.\n - For renewal of scholarship in each year of study, besides getting at least 50% marks in the Annual Examination, maintenance of adequate attendance should be at least 75%.\n - The students are required to have Aadhaar seeded bank accounts opened in their name.\n\nScheme: Pradhan Mantri Uchchatar Shiksha Protsahan (PM-USP) Central Sector Scheme of Scholarship for College and University students\nSection: exclusions\n- Students who are pursuing correspondence or distance mode or pursuing Diploma courses are not eligible.\n - Students who are already availing the benefit from any other scholarship schemes including State-run scholarship schemes/ fee waiver & reimbursement schemes are not eligible.\n\nScheme: Pradhan Mantri Uchchatar Shiksha Protsahan (PM-USP) Central Sector Scheme of Scholarship for College and University students\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "bm25": 18,
+        "rrf": 36
+      },
+      "verdict": "irrelevant",
+      "score": 0.0,
+      "reason": "Scholarship scheme for college and university students, not for farmers."
+    },
+    {
+      "scheme_id": "7KG1F5gBXu-iUKXqJXS_",
+      "text": "Scheme: Chief Minister’s Agriculture Mechanisation Programme\nSection: overview\nThe scheme “Chief Minister’s Agriculture Mechanisation Programme” was started by the government of Arunachal Pradesh to promote mechanization & hiring services for various agriculture Machinery/ Implements of post-harvest technology (PHY) equipment applied for different operations.\n\nScheme: Chief Minister’s Agriculture Mechanisation Programme\nSection: benefits\n{'type': 'ol_list', 'children': [{'type': 'list_item', 'children': [{'text': 'Subsidized Agriculture Machinery'}]}, {'type': 'list_item', 'children': [{'text': 'The assistance of tractor subsidies to progressive farmers/ registered co-operative agriculture farming society/ unemployed agriculture and allied graduates belonging to APST in all the districts.'}]}, {'type': 'list_item', 'children': [{'text': 'For marginal and small farmers, farm machines such as Power tillers, Water pump sets, etc. as mentioned in the table below are to be distributed as per demand. '}]}]}\n\n{'type': 'table', 'children': [{'type': 'table_row', 'children': [{'type': 'table_cell', 'children': [{'text': 'Sl. No.'}]}, {'type': 'table_cell', 'children': [{'text': 'Machine Inputs'}]}, {'type': 'table_cell', 'children': [{'text': 'Approved Subsidy Rate (fixed for all price ranges) (₹ In Lakhs)'}]}]}, {'type': 'table_row', 'children': [{'type': 'table_cell', 'children': [{'text': '1'}]}, {'type': 'table_cell', 'children': [{'text': 'Tractor (45 HP) with accessories'}]}, {'type': 'table_cell', 'children': [{'text': '5.00'}]}]}, {'type': 'table_row', 'children': [{'type': 'table_cell', 'children': [{'text': '2'}]}, {'type': 'table_cell', 'children': [{'text': 'Combine Paddy Harvester'}]}, {'type': 'table_cell', 'children': [{'text': '15.00'}]}]}, {'type': 'table_row', 'children':\n\n{'type': 'table_cell', 'children': [{'text': '15.00'}]}]}, {'type': 'table_row', 'children': [{'type': 'table_cell', 'children': [{'text': '3'}]}, {'type': 'table_cell', 'children': [{'text': 'Mini Combine Harvester'}]}, {'type': 'table_cell', 'children': [{'text': '4.20'}]}]}, {'type': 'table_row', 'children': [{'type': 'table_cell', 'children': [{'text': '4'}]}, {'type': 'table_cell', 'children': [{'text': 'Power Tiller (10 HP) & Above'}]}, {'type': 'table_cell', 'children': [{'text': '0.85'}]}]}, {'type': 'table_row', 'children': [{'type': 'table_cell', 'children': [{'text': '5'}]}, {'type': 'table_cell', 'children': [{'text': 'Rotary Tiller'}]}, {'type': 'table_cell', 'children': [{'text': '0.70'}]}]}, {'type': 'table_row', 'children': [{'type': 'table_cell', 'children': [{'text':\n\n'0.70'}]}]}, {'type': 'table_row', 'children': [{'type': 'table_cell', 'children': [{'text': '6'}]}, {'type': 'table_cell', 'children': [{'text': 'Power Sprayer'}]}, {'type': 'table_cell', 'children': [{'text': '0.15'}]}]}, {'type': 'table_row', 'children': [{'type': 'table_cell', 'children': [{'text': '7'}]}, {'type': 'table_cell', 'children': [{'text': 'Paddy De-husking Machine (5HP) & above'}]}, {'type': 'table_cell', 'children': [{'text': '0.25'}]}]}, {'type': 'table_row', 'children': [{'type': 'table_cell', 'children': [{'text': '8'}]}, {'type': 'table_cell', 'children': [{'text': 'Atta Chakki'}]}, {'type': 'table_cell', 'children': [{'text': '0.60'}]}]}, {'type': 'table_row', 'children': [{'type': 'table_cell', 'children': [{'text': '9'}]}, {'type': 'table_cell', 'children':\n\n[{'type': 'table_cell', 'children': [{'text': '9'}]}, {'type': 'table_cell', 'children': [{'text'",
+      "stage_ranks": {
+        "dense": 19,
+        "rrf": 37,
+        "cohere": 9
+      },
+      "verdict": "relevant",
+      "score": 0.95,
+      "reason": "Provides subsidized agricultural machinery and equipment directly to farmers."
+    },
+    {
+      "scheme_id": "aBezF5gB5uF80_MGi49q",
+      "text": "Scheme: Krushi Mahotsav\nSection: overview\nThe Krishi Mahotsav Yojana is an agricultural development scheme launched by the Government of Gujarat in the year 2010. The scheme aims to boost agricultural productivity and increase the income of farmers in the state.\n\nScheme: Krushi Mahotsav\nSection: benefits\n{'type': 'paragraph', 'children': [{'text': 'Benefits', 'bold': True}]}\n{'type': 'ol_list', 'children': [{'type': 'list_item', 'children': [{'text': 'Agriculture Scientists and officers are provided guidance to farmers about Scientific farming, Organic farming, Farm mechanization, Micro Irrigation, Crop Value addition and Agriculture related information as well as provided knowledge of Government Schemes.'}]}, {'type': 'list_item', 'children': [{'text': 'In addition, to provide free kit distribution to small farmers during Krushi Mahotsav.'}]}]}\n\nScheme: Krushi Mahotsav\nSection: eligibility\n**Eligibility**\n\n 1. All farmers and Female farmers of the state.\n 1. The scheme is available to all farmers in the state of Gujarat.\n 1. There are no restrictions based on caste, religion, or gender.\n 1. Farmers who are interested in learning about the latest agricultural practices and improving their crop yields are encouraged to participate.\n\nScheme: Krushi Mahotsav\nSection: exclusions\n{'type': 'paragraph', 'children': [{'text': 'Exclusions', 'bold': True}]}\n\nSection: exclusions\n{'type': 'paragraph', 'children': [{'text': 'Exclusions', 'bold': True}]}\n{'type': 'ol_list', 'children': [{'type': 'list_item', 'children': [{'text': 'Individuals or entities that are not involved in farming or agriculture.'}]}, {'type': 'list_item', 'children': [{'text': 'Individuals or entities that do not hold any agricultural land.'}]}, {'type': 'list_item', 'children': [{'text': 'Farmers who do not have a valid Aadhaar Card or have an Aadhaar Card that is not linked to their bank account.'}]}, {'type': 'list_item', 'children': [{'text': 'Farmers who have defaulted on loans from banks or cooperative societies.'}]}, {'type': 'list_item', 'children': [{'text': 'Farmers who have been found guilty of any criminal offence related to agriculture or farming.'}]}]}\n\nScheme: Krushi Mahotsav\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "bm25": 19,
+        "rrf": 38,
+        "cohere": 8
+      },
+      "verdict": "relevant",
+      "score": 0.95,
+      "reason": "Supports farmers with agricultural guidance and free kits to boost productivity."
+    },
+    {
+      "scheme_id": "3cb9F5gB0AGc0F0ibTfh",
+      "text": "Scheme: Krishak Bakri Palan Yojna\nSection: overview\nThe Department of Animal Husbandry, Government of Himachal Pradesh has introduced a scheme named \"Krishak Bakri Palan Yojna\" with the aim to increase income generation opportunities for economically weaker segments of the society as well as to increase meat production.\n\nScheme: Krishak Bakri Palan Yojna\nSection: benefits\n\nSection: benefits\n1. **Financial Assistance:** Farmers receive goat units on a 60% subsidy, significantly reducing the initial investment required for goat farming.1. **Improved Livelihoods:** The scheme helps improve the livelihoods of small farmers by providing a steady source of income through goat farming.1. **Increased Meat Production:** By distributing high-quality goat breeds, the scheme boosts meat production in the state, contributing to the local economy.1. **Sustainable Farming Practices:** The scheme promotes sustainable farming practices, ensuring long-term economic benefits for farmers.1. **Empowerment of Marginalized Communities:** By targeting economically weaker sections, the scheme empowers marginalized communities, promoting social and economic inclusion.\n\nScheme: Krishak Bakri Palan Yojna\nSection: eligibility\n1. Farmers belonging to all categories like general/SC/ST/BPL/Women and Landless persons of Himachal Pradesh are eligible. \n 1. Training/awareness in skills of goat husbandry is mandatory for all applicants. Concerned Senior Veterinary Officer will provide training to interested persons/applicants.\n 1. Training/awareness in skills of goat husbandry is mandatory for all applicants. Concerned Senior Veterinary Officer will provide training to interested persons/applicants.\n\n**The preference will be given to:**\n\n**The preference will be given to:**\n\n 1. Unemployed SC, ST, Women and General category persons. At least 30 percent beneficiaries should be women.\n 1. Families where no member is in Government job.\n 1. Persons with annual income not exceeding 2 lakh per annum.\n 1. Persons/farmers who have built their own goat sheds or built under MGNREGA.\n\nScheme: Krishak Bakri Palan Yojna\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "dense": 20,
+        "rrf": 39
+      },
+      "verdict": "relevant",
+      "score": 0.9,
+      "reason": "Offers goat farming subsidies to farmers to supplement livelihood and income."
+    },
+    {
+      "scheme_id": "ARfHlZoB5uF80_MGXMwK",
+      "text": "Scheme: Spice Area Expansion\nSection: overview\nThe scheme aims to promote and expand the cultivation of high-value spices such as ginger, chili, turmeric, and garlic among farmers by providing quality seeds and tubers at a subsidized rate, thereby increasing spice production and enhancing farmers’ income in Uttarakhand.\n\nScheme: Spice Area Expansion\nSection: benefits\n- To promote spice cultivation among farmers, spice seeds and tubers (ginger, chili, turmeric, and garlic) are provided at a 50% subsidy on the total cost, up to ₹15,000/- per hectare. These seeds are available for a maximum of 4 hectares of land.\n - For example, if 1 kg of ginger costs ₹200/-, the farmer pays ₹100/- to the concerned Horticulture Mobile team Center, while the government bears the remaining ₹100/- as a subsidy, allowing the farmer to obtain the tuber for ₹100/-.\n\nScheme: Spice Area Expansion\nSection: eligibility\n1. The applicant must be a resident of Uttarakhand.\n1. The applicant must be a farmer and hold a Udhyan Card.\n1. The farmer must either own agricultural land or have land on lease.\n\nScheme: Spice Area Expansion\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "bm25": 20,
+        "rrf": 40
+      },
+      "verdict": "relevant",
+      "score": 0.95,
+      "reason": "Provides subsidized seeds and tubers to farmers for spice cultivation."
+    },
+    {
+      "scheme_id": "OqG2F5gBXu-iUKXqHnXE",
+      "text": "Scheme: Beej Swalamban Yojna\nSection: overview\nMukhyamantri Beej Swavalamban Yojana was started in the year 2017-18 with the objective of producing quality improved seeds on their farms for their own use by the farmers.\n\nScheme: Beej Swalamban Yojna\nSection: benefits\n- The seeds produced by the group of farmers will be used by the rest of the farmers for production in the next year.\n\nScheme: Beej Swalamban Yojna\nSection: eligibility\n- Farmers, who are interested in progressive and crop-specific farming.\n\nScheme: Beej Swalamban Yojna\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "dense": 21,
+        "rrf": 41
+      },
+      "verdict": "relevant",
+      "score": 1.0,
+      "reason": "Directly supports farmers in producing quality seeds on their farms."
+    },
+    {
+      "scheme_id": "LqE9GJgBXu-iUKXqBHm0",
+      "text": "Scheme: Scheme of Providing Assistance to Encourage Farmers for Adoption of Organic Farming\nSection: overview\nThis scheme has been introduced by the Agriculture, Farmers Welfare and Cooperation Dept., Gujarat. It aims to promote organic farming by providing financial assistance to farmers for certification, input subsidies, and residue testing.\n\nScheme: Scheme of Providing Assistance to Encourage Farmers for Adoption of Organic Farming\nSection: benefits\n**Name of the Component****Standard of Assistance****Minimum Time Limit (in Years) for Reclaiming Benefits**Registration/ CertificationAssistance for Certification/Registration fees 75% from GOPCA and 50% assistance in Certification fees with other certifying Body; Upto Maximum ₹2,000/- per HectareEvery yearInputInput subsidy of ₹5,000/- per Hectare for Certified farmEvery yearResidue testingPer sample Assistance upto ₹1,0000/-Every year\n\nScheme: Scheme of Providing Assistance to Encourage Farmers for Adoption of Organic Farming\nSection: eligibility\n- The applicant must be an Individual farmer or farmers group.\n - The applicant should have an interest in practicing certified organic farming system.\n\nScheme: Scheme of Providing Assistance to Encourage Farmers for Adoption of Organic Farming\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "dense": 22,
+        "rrf": 42,
+        "cohere": 10
+      },
+      "verdict": "relevant",
+      "score": 1.0,
+      "reason": "Provides financial assistance and subsidies to farmers adopting organic farming."
+    },
+    {
+      "scheme_id": "PcbmhZkB0AGc0F0iqjku",
+      "text": "Scheme: Samriddhi – Scheme for Scheduled Caste/Scheduled Tribe Students for Setting Start-Ups\nSection: overview\nThe scheme aims to provide opportunities for Scheduled Caste/Scheduled Tribe students to design, launch, and run their own business or startup after formal education is completed or during their final year of education. The scheme provides a limited one-time financial assistance of ₹20,00,000/-.\n\nScheme: Samriddhi – Scheme for Scheduled Caste/Scheduled Tribe Students for Setting Start-Ups\nSection: benefits\n- Total funding provided is ₹20,00,000/-.\n- Limited one-time financial assistance of ₹20,00,000/- is provided to the Institute.\n- Seed money of ₹2,00,000/- per startup will be given, and this amount is non-refundable.\n- Funding is allocated for nine startups of Scheduled Caste/Scheduled Tribe students.\n- ₹2,00,000/- will be given to the institute specifically for meeting the expenditure associated with the selection procedure.\n- ₹1,00,000/- per year shall constitute a recurring grant portion of the total funding.\n\n> ***Other Details***\n\n> ***Other Details***\n\n- The total duration of the Scheme shall be for a period of 2 years.\n- 100% of non-recurring funds are released at the time of the award of the scheme.\n- ₹1,00,000/- each is released as recurring funding for two consecutive years.\n- The seed money is provided to passed out or present students for starting their own enterprise after completion of the formal education from the same institute.\n\n> ***Conditions***\n\n- The Institute must set up a committee to select nine already registered startups of Scheduled Caste/Scheduled Tribe students.\n- It is essential that the center has dedicated faculty serving as the Principal Coordinator and dedicated support staff to ensure smooth functioning and effective meeting of its objectives.\n- The Institute must devise a feedback mechanism to assess the importance of the program.\n- Feedback shall be obtained after each program from each of the beneficiaries.\n- If deemed necessary based on feedback, the Institute can update its curriculum for these programs.\n- Exclusions from Benefit\n\n- Exclusions from Benefit\n- Startup beneficiaries who are already receiving benefits from other schemes of the All India Council for Technical Education or the Government of India will not be entitled to this scheme.\n\nScheme: Samriddhi – Scheme for Scheduled Caste/Scheduled Tribe Students for Setting Start-Ups\nSection: eligibility\n- The applicant must be an All India Council for Technical Education (AICTE) approved institute or an All India Council for Technical Education approved University Department.\n- The applicant (Institute/University Department) must have been in existence for a period of at least 10 years.\n- The applicant (Institution) must possess a good incubation center.\n- The incubation center's activities must have been happening for at least 5 years.\n- The applicant (Institute) must have a minimum of 50 Scheduled Caste/Scheduled Tribe students enrolled on average during the last 3 years.\n\n- The applicant (Institute) must comply with the guidelines of the Tribal Sub Plan and the Scheduled Caste Sub Plan of the Government of India.\n- Student Eligibility (For selection by the Institute)\n- The applicant (Student) must be in the final year of their degree or diploma course.\n- The applicant (Student) must have a registered company or startup in their name.\n\nScheme: Samriddhi – Scheme for Scheduled Caste/Scheduled Tribe Students for Setting Start-Ups\n",
+      "stage_ranks": {
+        "bm25": 22,
+        "rrf": 43
+      },
+      "verdict": "irrelevant",
+      "score": 0.0,
+      "reason": "Intended for SC and ST students launching business startups, not farmers."
+    },
+    {
+      "scheme_id": "q8a3F5gB0AGc0F0isDTM",
+      "text": "Scheme: Fruit Development Scheme\nSection: overview\nThe objective of the scheme is to make available to the farmers good quality planting materials in convergence mode and sale at subsidized rates.\n\nScheme: Fruit Development Scheme\nSection: benefits\n> **Pattern of Assistance:**\n\n - Quality planting materials for sale at 50% subsidy and free of cost to the farmers under convergent mode with MGNREGA.\n\n> **Type of Assistance and Entitlement (If any):**\n\n> **Type of Assistance and Entitlement (If any):**\n\n**Sl. No.****Entitlement****Owantum of Assistance**1To promote fruit cultivation by making available to farmers good quality planting materials including horticultural tools and implements.(i) 50% subsidy sale to the farmers. (ii) Free sampling of planting materials for convergent mode with MGNREGA.2Citrus rejuvenation programme for the senile orchard by providing planting materials for gap filling and organic-based plant protection measures.100% assistance.3Creeper fruit plants like- Kiwi, Grapes, etc. permanent trellies system are provided but planting and erection are to be done by farmers.75% subsidy assistance is limited to 500 sqm per beneficiary.\n\nScheme: Fruit Development Scheme\nSection: eligibility\n1. The applicant/farmer should be a resident of Meghalaya.\n 1. The applicant should be a bonafide farmer engaged in Agriculture, possessing own or leased land of at least 0.2 (hectares) or more.\n\n**Note:** The applicant farmer can avail of the benefits of the scheme on a first come first serve basis.\n\nScheme: Fruit Development Scheme\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "bm25": 23,
+        "rrf": 44
+      },
+      "verdict": "relevant",
+      "score": 1.0,
+      "reason": "Provides subsidized planting materials and horticultural tools to farmers."
+    },
+    {
+      "scheme_id": "p8bqF5gB0AGc0F0i9DeH",
+      "text": "Scheme: Patrakar Kritadnyata Nidhi Scheme (Journalist Benevolent Fund)\nSection: overview\nThe scheme aims to provide financial assistance to journalists in Goa for emergencies like medical treatment, marriage, and education. Benefits include aid up to ₹2,00,000/and scholarships for dependents. Eligible journalists must be registered and working in Goa for at least three years.\n\nScheme: Patrakar Kritadnyata Nidhi Scheme (Journalist Benevolent Fund)\nSection: benefits\n> **Financial Assistance and Purpose**\n\n- Marriage of Daughter: Up to ₹2,00,000/-\n- Major/Minor Operation/Medical Treatment for Self or Family: Up to ₹2,00,000/-\n- Funeral Expenses of the Journalist: Up to ₹2,00,000/-\n- Travel/Incidental Expenses for Treatment: Up to ₹2,00,000/-\n- Medical Reimbursement for General Expenses: Up to ₹2,00,000/-\n- Scholarship/Incentives for Wards Pursuing Higher Education: Up to ₹2,00,000/-\n- Financial Assistance for Self-employment Ventures: Up to ₹2,00,000/-\n- House Repair/Construction Due to Natural Calamities: Up to ₹2,00,000/-\n- Lump-sum Grant on the Death of the Journalist to Next Kin: Up to ₹2,00,000/-\n\n_*All disbursements are made through cheques._\n> **Conditions for Disbursement**\n\n- Original bills and photocopies of hospital/institution documents must be submitted for medical claims.\n- For super-specialty treatment, bills must be submitted within three months.\n\nScheme: Patrakar Kritadnyata Nidhi Scheme (Journalist Benevolent Fund)\nSection: eligibility\n- The applicant should be a journalist.\n- The applicant should have been born and brought up in Goa.\n- The applicant should be working in a newspaper establishment in Goa for at least three years continuously.\n- The applicant should be registered with the Department of Information and Publicity, Government of Goa, and renew registration by June 30th every year.\n- The applicant should not be engaged in any other profession.\n\nScheme: Patrakar Kritadnyata Nidhi Scheme (Journalist Benevolent Fund)\nSection: exclusions\nJournalists who have availed benefits under other government schemes (e.g., Kanyadan Scheme, Mediclaim, CMRY, Disaster Management Scheme) for the same purpose are ineligible.\n\nScheme: Patrakar Kritadnyata Nidhi Scheme (Journalist Benevolent Fund)\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "bm25": 24,
+        "rrf": 45
+      },
+      "verdict": "irrelevant",
+      "score": 0.0,
+      "reason": "Provides financial aid specifically for journalists, not farmers."
+    },
+    {
+      "scheme_id": "rRf9F5gB5uF80_MGZZPn",
+      "text": "Scheme: Mukhya Mantri Mahila Kisan Sashaktikaran Yojana\nSection: overview\nMukhya Mantri Mahila Kisan Sashaktikaran Yojana (MMKSY) is a scheme launched by the Government of Gujarat to empower women farmers in the state. The scheme was announced in the 2018-19 budget and is being implemented by the Department of Agriculture and Co-operation.\n\nScheme: Mukhya Mantri Mahila Kisan Sashaktikaran Yojana\nSection: benefits\n{'type': 'paragraph', 'children': [{'text': 'Benefits', 'bold': True}]}\n\n{'type': 'ol_list', 'children': [{'type': 'list_item', 'children': [{'text': 'Financial Assistance: The scheme provides financial assistance to women farmers for various farm activities like purchasing inputs, seeds, equipment, etc. This helps in improving their agricultural productivity and income.'}]}, {'type': 'list_item', 'children': [{'text': 'Training and Capacity Building: The scheme offers training and capacity-building programs to women farmers to enhance their skills and knowledge about modern agricultural practices. This helps in improving their productivity and income.'}]}, {'type': 'list_item', 'children': [{'text': 'Access to Credit: The scheme aims to provide easy access to credit to women farmers through various financial institutions. This helps in reducing their\n\nto credit to women farmers through various financial institutions. This helps in reducing their dependency on moneylenders and promotes financial inclusion.'}]}, {'type': 'paragraph', 'children': [{'text': ''}]}]}\n\nScheme: Mukhya Mantri Mahila Kisan Sashaktikaran Yojana\nSection: eligibility\n**Eligibility**\n\n1. Women Farmers: Only women farmers are eligible to apply for the scheme. Women farmers who own or operate agricultural land are eligible to apply.\n1. Resident of Gujarat: Only women farmers who are residents of Gujarat are eligible to apply.\n1. Age Criteria: There is no specific age limit for the scheme. Women farmers of all age groups can apply.\n1. Income Criteria: There is no specific income criteria for the scheme. However, preference is given to women farmers who belong to economically weaker sections.\n1. Land Holding: Women farmers who own or operate agricultural land are eligible to apply. The size of the landholding is not a criterion for eligibility.\n\n1. Registration: Women farmers have to register themselves with the Department of Agriculture and Co-operation to apply for the scheme.\n1. Group Formation: Women farmers can also form groups and apply for the scheme collectively..\n\nScheme: Mukhya Mantri Mahila Kisan Sashaktikaran Yojana\nSection: exclusions\n{'type': 'paragraph', 'children': [{'text': 'Exclusions', 'bold': True}]}\n{'type': 'ol_list', 'children': [{'type': 'list_item', 'children': [{'text': 'Government employees are not allowed to apply to the scheme.'}]}, {'type': 'list_item', 'children': [{'text': 'The student obtaining benefits under this scheme shall not be allowed to avail of benefits under any other scheme for this purpose.'}]}]}\n{'type': 'paragraph', 'children': [{'text': ''}]}\n\nScheme: Mukhya Mantri Mahila Kisan Sashaktikaran Yojana\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "bm25": 25,
+        "rrf": 46
+      },
+      "verdict": "relevant",
+      "score": 0.95,
+      "reason": "Provides financial assistance and training specifically to women farmers."
+    },
+    {
+      "scheme_id": "r6HTF5gBXu-iUKXqQ3d_",
+      "text": "Scheme: Annal Ambedkar Business Champions Scheme\nSection: overview\nThe scheme “Annal Ambedkar Business Champions Scheme (AABCS)” was launched by the Department of Micro, Small and Medium Enterprises, Government of Tamil Nadu.\n\nScheme: Annal Ambedkar Business Champions Scheme\nSection: benefits\n1. Under the scheme, the State Government will provide a 35% capital subsidy on the Eligible Project Cost, not exceeding ₹1.5 Crore.\n 1. A 6% interest subvention will be given for loans sanctioned under this scheme.\n\n**Note 01:** Interest subvention will be given to loans sanctioned by scheduled Commercial Banks, Co-Operatives Banks, Tamil Nadu Industrial Investment Corporation, and Non-Banking Financial Companies (NBFCs) during the tenure of the loan not exceeding 10 years.\n**Note 02:** The capital subsidy sanctioned will be provided frontend to the extent necessary to constitute margin money requirement for credit linkage.\n**Note 03:** The working capital sanctioned for the project shall be eligible for interest subvention for a period not exceeding 2 years.\n\nScheme: Annal Ambedkar Business Champions Scheme\nSection: eligibility\n1. The applicant should be a resident of the State of Tamil Nadu.\n 1. The beneficiaries shall be persons belonging to SC/ST communities. Enterprises supported under the scheme shall be 100% owned by persons belonging to SC/STs. The enterprises may have any legal personality allowed to conduct business for profit as per prevailing laws which include sole proprietorship, partnership, and company.\n 1. The scheme can support both new enterprises and expansion of existing enterprises.\n\n1. The scheme can support both new enterprises and expansion of existing enterprises.\n 1. The eligible enterprises can be business enterprises in the areas of manufacturing and services. Trading-related projects which are above the threshold of assistance under the existing Unemployed Youth Employment Generation Programme (UYEGP) scheme will also be covered.\n 1. The age limit for beneficiaries will be 55 years.\n 1. There shall be no minimum educational qualification for beneficiaries.\n 1. There will be no bar on the beneficiary to claim additional capital subsidy from schemes operated by agencies not controlled by the Government of Tamil Nadu. This will include the Credit Linked Capital Subsidy Scheme (CLCSS) of the Union Government, schemes of Coir Board, etc.,\n\n1. Entrepreneurship Development Training will be given to all beneficiaries by Entrepreneurship Development and Innovation Institute, as done in the case of the New Entrepreneur-cum- Enterprise Development Scheme (NEEDS).\n\n**Note 01:** The scheme will cover new entrepreneurs and existing entrepreneurs.\n**Note 02:** Eligible Project Cost shall include all investments of a capital nature and will include land, plant, machinery, testing equipment, and computing devices, Cost of land may be taken into account for the purposes of calculating subsidy which should not exceed 20% of the total project cost. Vehicles shall be considered as part of project cost only in cases where the vehicle is integral to the business process as in the case of taxi and lorry business, earth moving equipment, bore well drilling, sanitary service equipment like Jet Roding machines, etc.,\n\n**Note 03:** This training will be given even for prospective applicants or their wards where subsidy applications are under process. Convergence with existing training schemes of the Government, including the Tamil Nadu Skill Dev",
+      "stage_ranks": {
+        "bm25": 26,
+        "rrf": 47
+      },
+      "verdict": "irrelevant",
+      "score": 0.0,
+      "reason": "Focuses on business enterprises and SC/ST entrepreneurs, not farmers."
+    },
+    {
+      "scheme_id": "aMa2F5gB0AGc0F0iIDQT",
+      "text": "Scheme: Agricultural Skill Development Training Programme For Women Farmers And Farmers\nSection: overview\nThe scheme “Agricultural Skill Development Training Programme for Women Farmers and Farmers” was started by the Department of Agriculture, Farmers Welfare & Co-operation, Government of Gujarat.\n\nScheme: Agricultural Skill Development Training Programme For Women Farmers And Farmers\nSection: benefits\n1. Selected women farmers, male farmers, and youth have been trained-n-guided in agricultural and allied aspects of the scientific method.\n1. The latest information on agricultural aspects will be provided to the selected applicant under this scheme.\n1. The selected applicants have informed the developing scheme of the state and central levels.\n\nScheme: Agricultural Skill Development Training Programme For Women Farmers And Farmers\nSection: eligibility\n1. The applicant should be a permanent resident of Gujarat State.\n1. The farm families of women farmers, male farmers, and youth are eligible to apply.\n\nScheme: Agricultural Skill Development Training Programme For Women Farmers And Farmers\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "bm25": 27,
+        "rrf": 48
+      },
+      "verdict": "relevant",
+      "score": 0.95,
+      "reason": "Offers agricultural skill development training directly for male and female farmers."
+    },
+    {
+      "scheme_id": "Msa1F5gB0AGc0F0inDS1",
+      "text": "Scheme: Goa Welfare / Pension Scheme For Seafarers\nSection: overview\nThe scheme \"Goa Welfare / Pension Scheme for Seafarers\" by the Home Department, Government of Goa, provides financial assistance in the form of a Gross Pension of ₹ 2,500/- per month to the beneficiaries. The applicant should be a retired seaman. The age of the applicant should be 60 years or above.\n\nScheme: Goa Welfare / Pension Scheme For Seafarers\nSection: benefits\nFinancial Assistance in the form of a **Gross Pension of ₹ 2,500/- per month.**\n**NOTE:** If the applicant is in receipt of a monthly pension under the Dayanand Social Security Scheme / Griha Aadhaar Scheme / Kala Samman Scheme, the amount whereof is less than the Gross Pension available under these schemes, then he/she will be entitled to receive only the difference, between the amounts of Gross Pension available under the above schemes.\n\nScheme: Goa Welfare / Pension Scheme For Seafarers\nSection: eligibility\n1. The applicant should be a Citizen of India.\n1. The applicant should be a retired seaman, i.e. seaman who was employed on board the ship and retired.\n1. The seaman invalidated from sea service on medical grounds before retirement are also eligible.\n1. The age of the retired seaman should be 60 years or above.\n1. The widow of a deceased Seaman can also be eligible on compassionate grounds, provided that she has been a resident of Goa for 15 years and that her annual income from all sources does not exceed ₹ 1,20,000/-.\n\n1. The beneficiary should be a bonafide resident of Goa by birth and if not, the said birth should have been registered in Goa or at least either of the parents of the beneficiary should have been born in Goa.\n1. The retired seaman should have rendered a total of 120 months of actual service on board the ship. A break in service up to the period of 6 months shall be condoned while computing the total period of service.\n\n**NOTE:** The limit of 120 months of actual service shall not apply to beneficiaries invalidated from sea service on medical grounds before retirement and the widow of a deceased beneficiary on compassionate grounds.\n\nScheme: Goa Welfare / Pension Scheme For Seafarers\nSection: beneficiaries\nIndividual",
+      "stage_ranks": {
+        "bm25": 28,
+        "rrf": 49
+      },
+      "verdict": "irrelevant",
+      "score": 0.0,
+      "reason": "Pension scheme for retired seafarers, completely unrelated to farmers."
+    },
+    {
+      "scheme_id": "oaG9F5gBXu-iUKXq3XbJ",
+      "text": "Scheme: Scheme for Assistance for Industrial Infrastructure\nSection: overview\nThe “Scheme for Assistance for Industrial Infrastructure” aims to support the development and upgradation of industrial infrastructure in the state.\n\nScheme: Scheme for Assistance for Industrial Infrastructure\nSection: benefits\n- **General Assistance:** Up to 80% of the eligible project cost or ₹25,00,00,000/- per project, whichever is less.- **Supplementary Assistance:** If assistance from a Government of India scheme is less than 80% of the project cost, the remaining amount (up to 80% collectively) will be covered under this scheme.- **Assistance for MSE Clusters:** Up to 90% of the total project cost.- **Funding for Specific Studies:** Expenditure on studies for specific industries, industrial areas, or development activities through professional institutions or consultancy firms is eligible for assistance under this scheme.\n\n**Note:** Disbursement of assistance sanctioned will be in four installments based on expenditure incurred at 25%, 50%, 75% and 100% of project cost.\n\nScheme: Scheme for Assistance for Industrial Infrastructure\nSection: eligibility\n> **Eligible Institution:**\n\n - Eligible institution means any Industries Association, Chamber of Commerce and industry or SPV of industries (which are registered under Societies Act, Trust Act or the Companies Act) or any Large Project/Group of Industries are eligible.\n - Any Government Department, Govt. Agency or Authority, State and Central Govt. PSUs, Board, Corporation, Municipal Corporations will be considered as eligible Institution.\n\n> **Eligible Activities:**\n\n - Common Infrastructure facilities as may be required in an existing industrial estates/Industry clusters or industrial area such as:\n\n1. Approach road from industrial estate/area to District road/ State highway/ National highway/Port.\n 1. Over bridge on road/railway connecting Industrial area.\n 1. Up gradation of existing roads/widening of roads.\n 1. Construction of bypass roads.\n 1. Setting up of Earth station/Communication facilities.\n 1. Water/ Gas/electficity/energy distribution network.\n 1. Setting up of common warehousing facilities Common Facilities Centre, Incubation Centre, Product Development Centre, Training Center, Convention Centre, Exhibition Centre, Business Support Center, Testing laboratory.\n 1. Fire Stations.\n 1. Water Desalination Plant.\n 1. Transport Nagar / Common Transport facilities.\n 1. Water Augmentation Facility.\n 1. Networking Facility.\n 1. Primary Health Centre, Trauma/Emergency Centre.\n\n1. Networking Facility.\n 1. Primary Health Centre, Trauma/Emergency Centre.\n 1. Common Alternative Energy source project.\n 1. SWD, Sewage and drainage network.\n\n- Any other infrastructure facilities as approved by SLEC.\n - Link infrastructure facilities and last mile connectivity to Large/Mega project, Central and State Industrial PSUS, \n - Dormitory housing facility for industrial workers developed by Industrial Association / SPV of industries / Large projects.\n\n> **Eligible Investment:**\n\n> **Eligible Investment:**\n\n - Fixed capital investment in the project of industrial infrastructure (excluding land cost) as approved by the SLEC will is eligible.\n - Cost of preparation of work estimates, cost of technical sanction and cost of third party Inspection for Quality assurance will be eligible limited to 5% of the project cost or ₹20,00,000/-, whichever is less.\n - In case of up gradation of any infrastructure facilities in existin",
+      "stage_ranks": {
+        "bm25": 29,
+        "rrf": 50
+      },
+      "verdict": "irrelevant",
+      "score": 0.0,
+      "reason": "Assists industrial infrastructure projects, not individual or agricultural farmers."
+    }
+  ],
+  "stage_summary": [
+    {
+      "stage": "dense",
+      "cutoff": 10,
+      "retrieved": 10,
+      "relevant": 8,
+      "partially_relevant": 0,
+      "irrelevant": 0,
+      "unjudged": 2
+    },
+    {
+      "stage": "dense",
+      "cutoff": 30,
+      "retrieved": 22,
+      "relevant": 20,
+      "partially_relevant": 0,
+      "irrelevant": 0,
+      "unjudged": 2
+    },
+    {
+      "stage": "bm25",
+      "cutoff": 10,
+      "retrieved": 10,
+      "relevant": 6,
+      "partially_relevant": 0,
+      "irrelevant": 4,
+      "unjudged": 0
+    },
+    {
+      "stage": "bm25",
+      "cutoff": 30,
+      "retrieved": 29,
+      "relevant": 12,
+      "partially_relevant": 1,
+      "irrelevant": 16,
+      "unjudged": 0
+    },
+    {
+      "stage": "rrf",
+      "cutoff": 10,
+      "retrieved": 10,
+      "relevant": 10,
+      "partially_relevant": 0,
+      "irrelevant": 0,
+      "unjudged": 0
+    },
+    {
+      "stage": "rrf",
+      "cutoff": 30,
+      "retrieved": 30,
+      "relevant": 19,
+      "partially_relevant": 1,
+      "irrelevant": 8,
+      "unjudged": 2
+    },
+    {
+      "stage": "cohere",
+      "cutoff": 10,
+      "retrieved": 10,
+      "relevant": 9,
+      "partially_relevant": 0,
+      "irrelevant": 0,
+      "unjudged": 1
+    },
+    {
+      "stage": "cohere",
+      "cutoff": 30,
+      "retrieved": 10,
+      "relevant": 9,
+      "partially_relevant": 0,
+      "irrelevant": 0,
+      "unjudged": 1
+    }
+  ]
+}

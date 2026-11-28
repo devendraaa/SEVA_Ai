@@ -1,0 +1,9 @@
+stage,cutoff,retrieved,relevant,partially_relevant,irrelevant,unjudged
+dense,10,10,8,0,0,2
+dense,30,22,20,0,0,2
+bm25,10,10,6,0,4,0
+bm25,30,29,12,1,16,0
+rrf,10,10,10,0,0,0
+rrf,30,30,19,1,8,2
+cohere,10,10,9,0,0,1
+cohere,30,10,9,0,0,1
