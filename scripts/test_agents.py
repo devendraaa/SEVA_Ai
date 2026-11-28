@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 def main():
     try:
-        query = "Find government schemes for farmers"
+        query = "I am a farmer from Maharashtra. What schemes can I get?"
 
         result = run_agent(query)
 
@@ -19,6 +19,10 @@ def main():
         print("Query:", result["query"])
         print("Intent:", result["intent"])
         print("Answer:", result["answer"])
+
+        print("Rewritten query:", result.get("rewritten_query"))
+        print("Entities:", result.get("entities"))
+        print("Missing information:", result.get("missing_information"))
 
     except Exception:
         logger.exception("Agent test failed.")
