@@ -9,9 +9,7 @@ from retrieval.reranking.cohere_rerank import rerank_schemes
 
 from observability.tracing import trace_span
 
-
 logger = logging.getLogger(__name__)
-
 
 def retrieve_hybrid_schemes(
     query: str,

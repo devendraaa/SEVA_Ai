@@ -6,6 +6,8 @@ import cohere
 from indexing import load_vectorstores
 from retrieval.bm25.retrieval import build_bm25_retriever
 from retrieval.hybrid.retrieval import retrieve_hybrid_schemes
+from evaluation.retrieval.retrieval_capture import capture_hybrid_retrieval
+from evaluation.retrieval.relevance_judge import judge_candidates
 from dotenv import load_dotenv
 
 logging.basicConfig(
@@ -75,6 +77,33 @@ def main():
         # print(f"Profile building : {latency['scheme_profiles']:.4f} sec")
         # print(f"Cohere reranking : {latency['cohere']:.4f} sec")
         # print(f"Total query time : {latency['total']:.4f} sec")
+
+        # 1. Capture retrieval results
+        captured = capture_hybrid_retrieval(
+            query=query,
+            discovery_db=discovery_db,
+            bm25_retriever=bm25_retriever,
+            cohere_client=cohere_client,
+        )
+
+        # 2. Judge all unique retrieved schemes
+        judgments = judge_candidates(
+            query=query,
+            candidates=captured["candidates"],
+        )
+
+        # 3. Connect judgments to their retrieval stages
+        judgment_lookup = {
+            item["scheme_id"]: item
+            for item in judgments
+        }
+
+        for candidate in captured["candidates"]:
+            candidate["judgment"] = judgment_lookup.get(
+                candidate["scheme_id"]
+            )
+
+        print(captured["candidates"])
 
     except Exception:
         logging.exception("Hybrid retrieval test failed")
